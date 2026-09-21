@@ -1,0 +1,540 @@
+/* ============================================================
+   LOOPSELY - motion layer
+   Loads AFTER style.css. Delete the <link> to this file and the
+   site still works, just static.
+
+   Everything here is transform/opacity/filter only, gated behind
+   .js (so no-JS never hides content) and killed wholesale by
+   prefers-reduced-motion at the bottom.
+   ============================================================ */
+
+/* Without JS, nothing is allowed to stay hidden. */
+html:not(.js) .scr,
+html:not(.js) .hero-in > *{ opacity:1 !important; transform:none !important; filter:none !important; }
+
+@keyframes up   { from{ opacity:0; transform:translateY(22px); } to{ opacity:1; transform:none; } }
+@keyframes ch-in{ to{ opacity:1; transform:none; filter:blur(0); } }
+
+/* ============================================================
+   1. Cross-document view transitions
+   Chromium + Safari 18.2+. Elsewhere the at-rule is ignored and
+   navigation just works normally.
+   ============================================================ */
+@view-transition{ navigation:auto; }
+
+::view-transition-old(root){ animation:vt-out .22s var(--ease) both; }
+::view-transition-new(root){ animation:vt-in  .34s var(--ease) both; }
+@keyframes vt-out{ to  { opacity:0; transform:translateY(-10px); } }
+@keyframes vt-in { from{ opacity:0; transform:translateY(14px);  } }
+
+/* The chrome stays put while the body swaps underneath it. */
+.nav   { view-transition-name:site-nav; }
+footer { view-transition-name:site-foot; }
+
+/* ============================================================
+   2. Scroll progress rail
+   Pure CSS where scroll() is supported; motion.js drives it otherwise.
+   ============================================================ */
+.progress{
+  position:fixed; inset:0 0 auto 0; height:2px; z-index:150;
+  transform:scaleX(0); transform-origin:0 50%;
+  background:linear-gradient(90deg, var(--accent), var(--accent-lt));
+  box-shadow:0 0 12px var(--glow);
+  pointer-events:none;
+}
+@supports (animation-timeline: scroll()){
+  .progress{ animation:prog linear both; animation-timeline:scroll(root block); }
+  @keyframes prog{ from{ transform:scaleX(0); } to{ transform:scaleX(1); } }
+}
+
+/* ============================================================
+   3. Nav condenses as you leave the hero
+   ============================================================ */
+@supports (animation-timeline: scroll()){
+  .nav{
+    animation:nav-solid linear both;
+    animation-timeline:scroll(root block);
+    animation-range:0 180px;
+  }
+  @keyframes nav-solid{
+    to{
+      background:rgba(10,10,11,.93);
+      border-bottom-color:var(--line);
+      box-shadow:0 12px 34px rgba(0,0,0,.55);
+    }
+  }
+}
+
+/* ============================================================
+   4. Two-way scroll animation
+   Blocks rise in from below when scrolling down, drift out the
+   top as they leave, and do the exact reverse on the way back up.
+   motion.js tags the blocks with .scr.
+
+   Native path: two scroll-driven animations on the element's own
+   view() timeline - one scrubbed over its entry, one over its
+   exit. The exit one only fills forwards, so it stays out of the
+   way until the element actually starts leaving.
+   ============================================================ */
+@keyframes scr-in {
+  from{ opacity:0; transform:translateY(56px) scale(.96); filter:blur(8px); }
+  to  { opacity:1; transform:none;                        filter:none; }
+}
+@keyframes scr-out{
+  from{ opacity:1; transform:none;                         filter:none; }
+  to  { opacity:0; transform:translateY(-44px) scale(.97); filter:blur(8px); }
+}
+
+html.sda .scr{
+  animation:scr-in linear both, scr-out linear forwards;
+  animation-timeline:view(), view();
+  animation-range:entry 0% entry 90%, exit 10% exit 100%;
+}
+
+/* Fallback path (no scroll-driven support): IntersectionObserver
+   toggles classes both ways, and knows which edge the element
+   left from, so it exits up or down correctly. */
+html.js:not(.sda) .scr{
+  opacity:0; transform:translateY(56px) scale(.96);
+  transition:opacity .7s var(--ease), transform .7s var(--ease);
+  transition-delay:calc(var(--d, 0) * 70ms);
+}
+html.js:not(.sda) .scr.above{ transform:translateY(-44px) scale(.97); }
+html.js:not(.sda) .scr.in   { opacity:1; transform:none; }
+
+/* ---------- hero parallax-out ----------
+   As the hero scrolls away the content drifts slower than the page,
+   shrinks and fades; the backdrop sinks. Scroll back up and it
+   reassembles. Named timeline so children can read the hero's. */
+@supports (animation-timeline: view()){
+  html.js .hero{ view-timeline:--hero block; }
+
+  html.js .hero-in{
+    animation:hero-away linear both;
+    animation-timeline:--hero;
+    animation-range:exit 0% exit 100%;
+  }
+  @keyframes hero-away{
+    to{ opacity:0; transform:translateY(38%) scale(.92); filter:blur(6px); }
+  }
+
+  html.js .hero-bg.on{
+    animation:hero-bg-away linear both;
+    animation-timeline:--hero;
+    animation-range:exit 0% exit 100%;
+  }
+  @keyframes hero-bg-away{
+    from{ transform:scale(1.12); }
+    to  { transform:translateY(22%) scale(1.25); }
+  }
+}
+
+/* ---------- nav: hide going down, return going up ---------- */
+.nav{ transition:transform .38s var(--ease); }
+html.nav-away .nav{ transform:translateY(-100%); }
+html.nav-away .progress{ box-shadow:0 0 16px var(--glow); }
+
+/* ============================================================
+   5. Hero
+   ============================================================ */
+html.js .hero-in > *{ animation:up .85s var(--ease) both; }
+html.js .status      { animation-delay:.06s; }
+html.js .hero-tag    { animation-delay:.52s; }
+html.js .btn-row     { animation-delay:.64s; }
+html.js .socials     { animation-delay:.76s; }
+
+/* Per-letter wordmark. The gradient moves onto each character -
+   background-clip:text on the parent breaks once children transform. */
+html.js .wordmark{ background:none; perspective:700px; animation:none; }
+.wordmark .ch{
+  display:inline-block;
+  background:linear-gradient(180deg, #fff 30%, #c9b4dd 100%);
+  -webkit-background-clip:text; background-clip:text;
+  color:transparent;
+}
+html.js .wordmark .ch{
+  opacity:0;
+  transform:translateY(.42em) rotateX(-58deg);
+  filter:blur(9px);
+  animation:ch-in .78s var(--ease) forwards;
+  animation-delay:calc(var(--i, 0) * 52ms);
+}
+
+html.js .wordmark-rule{
+  transform-origin:0 50%;
+  animation:rule-in .9s var(--ease) .46s both;
+}
+@keyframes rule-in{ from{ transform:scaleX(0); opacity:0; } to{ transform:scaleX(1); opacity:1; } }
+
+/* Glow tracks the pointer instead of sitting dead centre. */
+@media (hover:hover) and (pointer:fine){
+  html.js .hero-glow{
+    left:var(--gx, 50%); top:var(--gy, 12%);
+    transform:translate(-50%, -50%);
+  }
+}
+
+/* ============================================================
+   6. Marquee ticker
+   ============================================================ */
+.marquee{
+  position:relative; overflow:hidden;
+  padding:15px 0;
+  border-block:1px solid var(--line-soft);
+  background:linear-gradient(90deg, transparent, rgba(151,68,208,.07), transparent);
+  -webkit-mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+          mask-image:linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+}
+.marquee-track{
+  display:flex; width:max-content;
+  animation:marq 34s linear infinite;
+}
+.marquee:hover .marquee-track{ animation-play-state:paused; }
+/* motion.js takes over: direction follows scroll, speed kicks with
+   scroll velocity, letters lean into the motion. */
+.marquee.driven .marquee-track{ animation:none; will-change:transform; }
+.marquee.driven .marq-item{ transform:skewX(var(--skew, 0deg)); }
+@keyframes marq{ to{ transform:translateX(-50%); } }
+
+.marq-item{
+  display:inline-flex; align-items:center; gap:26px;
+  padding:0 26px; white-space:nowrap;
+  font-family:var(--mono); font-size:12.5px; font-weight:700;
+  letter-spacing:.26em; text-transform:uppercase;
+  color:var(--txt-dim);
+}
+.marq-item:nth-child(even){ color:var(--accent-lt); }
+.marq-dot{
+  width:5px; height:5px; border-radius:50%; flex:none;
+  background:var(--accent); box-shadow:0 0 10px var(--glow);
+}
+
+/* ============================================================
+   7. Buttons - magnetic pull + shine sweep
+   ============================================================ */
+.btn, .nav-cta{ position:relative; overflow:hidden; }
+.btn-fill::after, .nav-cta::after{
+  content:""; position:absolute; top:0; left:-120%;
+  width:55%; height:100%;
+  background:linear-gradient(100deg, transparent, rgba(255,255,255,.38), transparent);
+  transform:skewX(-20deg);
+  pointer-events:none;
+}
+.btn-fill:hover::after, .nav-cta:hover::after{ animation:shine .8s var(--ease); }
+@keyframes shine{ to{ left:160%; } }
+
+@media (hover:hover) and (pointer:fine){
+  html.js .btn{
+    transform:translate(var(--mx, 0px), calc(var(--my, 0px) + var(--lift, 0px)));
+    transition:transform .35s var(--ease), box-shadow .2s var(--ease),
+               background .2s var(--ease), border-color .2s var(--ease);
+  }
+  html.js .btn.magnetic{ transition:transform .08s linear, box-shadow .2s var(--ease); }
+  html.js .btn:hover{ --lift:-2px; }
+}
+
+/* ============================================================
+   8. Video cards - stagger, 3D tilt, cursor specular
+   ============================================================ */
+@media (hover:hover) and (pointer:fine){
+  html.js .vcard .vthumb{
+    transform:perspective(900px)
+              rotateX(var(--rx, 0deg))
+              rotateY(var(--ry, 0deg))
+              translateY(var(--ty, 0px));
+    transition:transform .4s var(--ease), border-color .22s var(--ease), box-shadow .22s var(--ease);
+  }
+  html.js .vcard.tilting .vthumb{ transition:transform .1s linear, box-shadow .22s var(--ease); }
+  html.js .vcard:hover .vthumb{ --ty:-4px; }
+
+  /* specular highlight follows the pointer across the thumbnail.
+     z-index keeps it under the play button rather than washing it out. */
+  .vthumb::after{
+    content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:radial-gradient(220px circle at var(--px, 50%) var(--py, 50%),
+               rgba(151,68,208,.3), transparent 62%);
+    opacity:0; transition:opacity .28s var(--ease);
+    mix-blend-mode:screen;
+  }
+  .vcard:hover .vthumb::after{ opacity:1; }
+  .vplay{ z-index:2; }
+}
+
+/* ============================================================
+   9. Social pills stagger
+   ============================================================ */
+html.js .social{
+  animation:up .5s var(--ease) both;
+  animation-delay:calc(var(--i, 0) * 70ms);
+}
+
+/* ============================================================
+   10. CRT scanline wash
+   Deliberately static and unblended. An animated, mix-blend-mode
+   overlay at viewport size forces the whole page to re-composite
+   every frame - a real battery cost for an effect nobody can
+   consciously see. Static costs nothing.
+   ============================================================ */
+.noise{
+  position:fixed; inset:0; z-index:90; pointer-events:none;
+  background-image:repeating-linear-gradient(
+    0deg, rgba(255,255,255,.022) 0 1px, transparent 1px 3px);
+}
+
+/* ============================================================
+   12. Boot intro - once per session
+   The <head> script adds html.booting; hero entrance animations wait
+   paused until the curtain lifts, so they play as it rises.
+   ============================================================ */
+/* Cover the page from first paint until motion.js mounts the boot
+   screen (z-index 500 sits above this). Gone the moment booting ends. */
+html.booting body::after{
+  content:""; position:fixed; inset:0; z-index:499; background:var(--bg);
+}
+
+html.booting .hero-in > *,
+html.booting .wordmark .ch,
+html.booting .wordmark-rule{ animation-play-state:paused !important; }
+
+.boot{
+  position:fixed; inset:0; z-index:500;
+  display:grid; place-items:center;
+  background:var(--bg);
+  font-family:var(--mono); color:var(--txt-mid);
+  clip-path:inset(0 0 0 0);
+  transition:clip-path .62s cubic-bezier(.77,0,.18,1);
+  cursor:pointer;
+}
+.boot.lift{ clip-path:inset(0 0 100% 0); }
+.boot::before{
+  content:""; position:absolute; inset:0; pointer-events:none;
+  background:repeating-linear-gradient(0deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px);
+}
+.boot-in{ width:min(440px, calc(100vw - 32px)); position:relative; }
+.boot-line{
+  font-size:13px; letter-spacing:.12em; text-transform:uppercase;
+  margin:0 0 9px; opacity:0; transform:translateY(6px);
+  transition:opacity .18s, transform .18s;
+}
+.boot-line.on{ opacity:1; transform:none; }
+.boot-line b{ color:var(--accent-lt); font-weight:700; }
+.boot-title{ font-size:15px; color:var(--txt); letter-spacing:.3em; margin-bottom:18px; }
+.boot-bar{ height:3px; margin:18px 0 20px; background:var(--line); border-radius:2px; overflow:hidden; }
+.boot-bar i{
+  display:block; height:100%; width:100%;
+  background:linear-gradient(90deg, var(--accent), var(--accent-lt));
+  box-shadow:0 0 14px var(--glow);
+  transform:scaleX(0); transform-origin:0 50%;
+  transition:transform .8s cubic-bezier(.3,.6,.2,1);
+}
+.boot.go .boot-bar i{ transform:scaleX(1); }
+.boot-start{ color:var(--accent-lt); font-weight:700; letter-spacing:.34em; }
+.boot-start.on{ animation:blink .9s steps(2, jump-none) infinite; }
+@keyframes blink{ 50%{ opacity:.15; } }
+.boot-skip{
+  position:absolute; right:0; bottom:-44px;
+  font-size:10.5px; letter-spacing:.18em; color:var(--txt-dim); text-transform:uppercase;
+}
+
+/* ============================================================
+   13. Orbiting neon border (@property + conic-gradient)
+   Hover only - an always-spinning border everywhere is noise and
+   burns frames.
+   ============================================================ */
+@property --ang{ syntax:"<angle>"; initial-value:0deg; inherits:false; }
+@keyframes orbit{ to{ --ang:360deg; } }
+
+.panel::after,
+.vthumb::before{
+  content:""; position:absolute; inset:0; z-index:3; pointer-events:none;
+  border-radius:inherit; padding:1.5px;
+  background:conic-gradient(from var(--ang),
+    transparent 0 58%, var(--accent-dk) 68%, var(--accent) 78%, #e2c7ff 84%, transparent 92%);
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+          mask:linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  opacity:0;
+  transition:opacity .4s var(--ease);
+  animation:orbit 3.2s linear infinite paused;
+}
+.panel:hover::after,
+.vcard:hover .vthumb::before,
+.vcard:focus-visible .vthumb::before{ opacity:1; animation-play-state:running; }
+
+/* ============================================================
+   14. Panel spotlight - glow follows the pointer inside a panel.
+   Registered so the position itself transitions (smooth trail).
+   ============================================================ */
+@property --sx{ syntax:"<length-percentage>"; initial-value:100%; inherits:true; }
+@property --sy{ syntax:"<length-percentage>"; initial-value:0%;   inherits:true; }
+
+@media (hover:hover) and (pointer:fine){
+  html.js .panel{ transition:--sx .3s var(--ease), --sy .3s var(--ease); }
+  html.js .panel::before{
+    inset:0; width:auto; height:auto; border-radius:inherit;
+    background:radial-gradient(420px circle at var(--sx) var(--sy), rgba(151,68,208,.17), transparent 64%);
+  }
+}
+
+/* ============================================================
+   15. Grid spotlight - background grid lights up near the cursor
+   ============================================================ */
+.grid-glow{
+  position:fixed; inset:0; z-index:0; pointer-events:none;
+  background-image:
+    linear-gradient(to right,  rgba(151,68,208,.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(151,68,208,.5) 1px, transparent 1px);
+  background-size:64px 64px;
+  -webkit-mask-image:radial-gradient(240px circle at var(--cx, -999px) var(--cy, -999px), #000 0%, transparent 72%);
+          mask-image:radial-gradient(240px circle at var(--cx, -999px) var(--cy, -999px), #000 0%, transparent 72%);
+  opacity:0; transition:opacity .5s var(--ease);
+}
+.grid-glow.on{ opacity:.6; }
+
+/* ============================================================
+   16. Cursor ring - trails the pointer, swells over clickables.
+   Additive: the native cursor stays, pointing precision unchanged.
+   ============================================================ */
+.cursor-ring{
+  position:fixed; left:0; top:0; z-index:300; pointer-events:none;
+  width:0; height:0; opacity:0; transition:opacity .25s;
+}
+.cursor-ring.on{ opacity:1; }
+.cursor-ring::before{
+  content:""; position:absolute; left:-17px; top:-17px;
+  width:34px; height:34px; border-radius:50%;
+  border:1.5px solid rgba(180,122,224,.55);
+  transition:transform .28s var(--ease), background .28s, border-color .28s;
+}
+.cursor-ring.hot::before{
+  transform:scale(1.55);
+  background:rgba(151,68,208,.12);
+  border-color:var(--accent-lt);
+}
+.cursor-ring.press::before{ transform:scale(.8); }
+
+/* ============================================================
+   17. Sliding nav pill
+   ============================================================ */
+.nav-pill{
+  position:absolute; left:0; top:50%; height:34px; margin-top:-17px;
+  border-radius:7px; background:var(--bg-2); border:1px solid var(--line);
+  opacity:0; pointer-events:none; z-index:0;
+  transition:transform .38s var(--ease), width .38s var(--ease), opacity .25s;
+}
+@media (min-width:761px){
+  html.pill .nav-links{ position:relative; }
+  html.pill .nav-links a{ position:relative; z-index:1; }
+  html.pill .nav-links a:not(.nav-cta):hover{ background:transparent; }
+}
+@media (max-width:760px){ .nav-pill{ display:none; } }
+
+/* ============================================================
+   18. Pixel burst on click
+   ============================================================ */
+.px{
+  position:fixed; z-index:400; pointer-events:none;
+  width:5px; height:5px; margin:-2.5px 0 0 -2.5px;
+  box-shadow:0 0 8px var(--glow);
+}
+
+/* ============================================================
+   19. Wordmark glitch - RGB split + slice jitter, a few frames
+   ============================================================ */
+html.js .wordmark.glitch{ animation:glitch .42s steps(1, end) 1; }
+@keyframes glitch{
+  0%  { transform:none; filter:none; clip-path:none; }
+  12% { transform:translate(-3px, 1px) skewX(-6deg);
+        filter:drop-shadow(3px 0 0 rgba(0,229,255,.75)) drop-shadow(-3px 0 0 rgba(151,68,208,.95));
+        clip-path:inset(8% 0 52% 0); }
+  26% { transform:translate(4px, -1px);
+        filter:drop-shadow(-4px 0 0 rgba(0,229,255,.7)) drop-shadow(4px 0 0 rgba(151,68,208,.9));
+        clip-path:inset(46% 0 14% 0); }
+  40% { transform:translate(-1px, 0) skewX(3deg);
+        filter:drop-shadow(2px 0 0 rgba(0,229,255,.6)) drop-shadow(-2px 0 0 rgba(151,68,208,.9));
+        clip-path:inset(0 0 70% 0); }
+  54% { transform:none;
+        filter:drop-shadow(1px 0 0 rgba(0,229,255,.5)) drop-shadow(-1px 0 0 rgba(151,68,208,.8));
+        clip-path:none; }
+  100%{ transform:none; filter:none; clip-path:none; }
+}
+
+/* ============================================================
+   20. Back to top - ring fills with scroll progress
+   ============================================================ */
+.to-top{
+  position:fixed; right:18px; bottom:18px; z-index:120;
+  width:50px; height:50px; padding:0; border-radius:50%;
+  display:grid; place-items:center;
+  background:rgba(16,16,19,.82);
+  backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  border:1px solid var(--line); color:var(--txt);
+  cursor:pointer;
+  opacity:0; transform:translateY(14px) scale(.9); pointer-events:none;
+  transition:opacity .3s var(--ease), transform .3s var(--ease), border-color .2s, box-shadow .2s;
+}
+.to-top.show{ opacity:1; transform:none; pointer-events:auto; }
+.to-top:hover{ border-color:var(--accent-dk); box-shadow:0 0 22px var(--glow-soft); }
+.to-top svg{ width:44px; height:44px; position:absolute; transform:rotate(-90deg); }
+.to-top .tt-track{ fill:none; stroke:var(--line-soft); stroke-width:2; }
+.to-top .tt-ring{
+  fill:none; stroke:var(--accent-lt); stroke-width:2; stroke-linecap:round;
+  stroke-dasharray:125.66; stroke-dashoffset:125.66;
+}
+@supports (animation-timeline: scroll()){
+  .to-top .tt-ring{ animation:tt-fill linear both; animation-timeline:scroll(root block); }
+  @keyframes tt-fill{ to{ stroke-dashoffset:0; } }
+}
+.to-top .tt-arrow{
+  position:relative; width:14px; height:14px;
+  border-left:2px solid currentColor; border-top:2px solid currentColor;
+  transform:translateY(3px) rotate(45deg);
+  transition:transform .25s var(--ease);
+}
+.to-top:hover .tt-arrow{ transform:translateY(0) rotate(45deg); }
+
+/* ============================================================
+   11. Reduced motion - hard stop on all of it
+   ============================================================ */
+@media (prefers-reduced-motion: reduce){
+  .noise, .progress{ display:none; }
+  .marquee-track{ animation:none; transform:none; }
+
+  html.js .wordmark .ch,
+  html.js .wordmark-rule,
+  html.js .hero-in > *,
+  html.js .social{
+    animation:none !important;
+    opacity:1 !important;
+    transform:none !important;
+    filter:none !important;
+  }
+
+  html .scr, html.js .hero-in{
+    animation:none !important;
+    opacity:1 !important;
+    filter:none !important;
+  }
+  html.js .hero-bg.on{ animation:none !important; }
+  html .scr, html.js .hero-in{ transform:none !important; }
+  html.nav-away .nav{ transform:none; }
+
+  .nav{
+    animation:none !important;
+    animation-timeline:none !important;
+    opacity:1 !important;
+    transform:none !important;
+  }
+
+  .btn-fill::after, .nav-cta::after{ display:none; }
+  .boot, .grid-glow, .cursor-ring, .px, .nav-pill{ display:none !important; }
+  .panel::after, .vthumb::before{ animation:none !important; }
+  html.js .wordmark.glitch{ animation:none !important; }
+  .to-top .tt-ring{ animation:none !important; }
+  .to-top, .to-top .tt-arrow{ transition:none; }
+  .vthumb::after{ display:none; }
+
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*){ animation:none !important; }
+}

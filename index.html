@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>(function(r){r.classList.add("js");try{if(!sessionStorage.getItem("booted")&&!matchMedia("(prefers-reduced-motion: reduce)").matches){r.classList.add("booting");setTimeout(function(){r.classList.remove("booting")},3500);}}catch(e){}})(document.documentElement);</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loopsely</title>
+<meta name="description" content="Official home of Loopsely - videos, Discord, and everything else in one place.">
+<meta name="theme-color" content="#0a0a0b">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Loopsely">
+<meta property="og:description" content="Official home of Loopsely - videos, Discord, and everything else in one place.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@loopsely">
+
+<link rel="icon" href="assets/img/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/motion.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+<div class="noise" aria-hidden="true"></div>
+<div class="grid-bg" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-in">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" data-logo="assets/img/logo" aria-hidden="true"></span>
+      <span data-site="name">Loopsely</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navlinks">MENU</button>
+    <nav class="nav-links" id="navlinks" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="videos.html">Videos</a>
+      <a href="about.html">About</a>
+      <a href="#community">Community</a>
+      <a class="nav-cta" data-site="links.youtube" href="#" target="_blank" rel="noopener">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-bg" data-banner="assets/img/banner" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <p class="status"><span class="dot" aria-hidden="true"></span> New videos on the channel</p>
+      <h1 class="wordmark" data-site="name">Loopsely</h1>
+      <div class="wordmark-rule" aria-hidden="true"></div>
+      <p class="hero-tag" data-site="tagline"></p>
+
+      <div class="btn-row">
+        <a class="btn btn-fill" data-site="links.youtube" href="#" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        <a class="btn btn-ghost" data-site="links.discord" href="#" target="_blank" rel="noopener" data-needs-discord>Join the Discord</a>
+      </div>
+
+      <div class="socials" data-socials aria-label="Social links"></div>
+    </div>
+  </section>
+
+  <!-- ================= TICKER ================= -->
+  <div class="marquee" data-marquee></div>
+
+  <!-- ================= SHELVES ================= -->
+  <section id="videos" class="rv">
+    <div class="wrap">
+      <p class="eyebrow">Latest videos</p>
+      <div class="sec-head">
+        <h2>Fresh off the channel</h2>
+        <a class="link-more" href="videos.html#videos">All videos <span>&rarr;</span></a>
+      </div>
+      <div class="vgrid" data-videos data-type="video" data-limit="3"></div>
+    </div>
+  </section>
+
+  <section id="streams" class="rv shelf">
+    <div class="wrap">
+      <p class="eyebrow">Recent streams</p>
+      <div class="sec-head">
+        <h2>Straight from the stream</h2>
+        <a class="link-more" href="videos.html#streams">All streams <span>&rarr;</span></a>
+      </div>
+      <div class="vgrid" data-videos data-type="live" data-limit="3"></div>
+    </div>
+  </section>
+
+  <section id="shorts" class="rv shelf">
+    <div class="wrap">
+      <p class="eyebrow">Shorts</p>
+      <div class="sec-head">
+        <h2>Clips &amp; highlights</h2>
+        <a class="link-more" href="videos.html#shorts">All shorts <span>&rarr;</span></a>
+      </div>
+      <div class="vgrid tall" data-videos data-type="short" data-limit="6"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT TEASER ================= -->
+  <section id="about" class="rv">
+    <div class="wrap two-col">
+      <div>
+        <p class="eyebrow">The channel</p>
+        <h2>Who&rsquo;s behind it</h2>
+        <p class="lede" data-site="blurb"></p>
+        <a class="btn btn-ghost" href="about.html">Read more</a>
+      </div>
+      <div class="panel" data-games-section>
+        <p class="eyebrow">What gets played</p>
+        <ul class="tags" data-games></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMMUNITY ================= -->
+  <section id="community" class="rv">
+    <div class="wrap">
+      <div class="panel">
+        <p class="eyebrow">Community</p>
+        <h2>Come hang out</h2>
+        <p class="lede">
+          Everything lives in one place &mdash; the Discord for chat and announcements,
+          and the socials below for clips, updates and everything that doesn&rsquo;t make the channel.
+        </p>
+        <div class="btn-row" style="margin-bottom:26px">
+          <a class="btn btn-fill" data-site="links.discord" href="#" target="_blank" rel="noopener" data-needs-discord>Join the Discord</a>
+          <a class="btn btn-ghost" data-site="links.youtube" href="#" target="_blank" rel="noopener">Subscribe</a>
+        </div>
+        <div class="socials" data-socials aria-label="Social links"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BUSINESS ================= -->
+  <section id="contact" class="rv" data-needs-email>
+    <div class="wrap">
+      <p class="eyebrow">Business</p>
+      <h2>Work together</h2>
+      <p class="lede">
+        For sponsorships, brand partnerships and other business enquiries, email directly.
+        A full media kit is available on request.
+      </p>
+      <p><a class="mailto" data-mailto href="#">email</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" data-logo="assets/img/logo" aria-hidden="true"></span>
+          <span data-site="name">Loopsely</span>
+        </a>
+        <p data-site="tagline"></p>
+      </div>
+      <nav class="foot-nav" aria-label="Footer">
+        <div class="foot-col">
+          <h3>Site</h3>
+          <a href="index.html">Home</a>
+          <a href="videos.html">Videos</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="foot-col">
+          <h3>Elsewhere</h3>
+          <a data-site="links.youtube" href="#" target="_blank" rel="noopener">YouTube</a>
+          <a data-site="links.x" href="#" target="_blank" rel="noopener">X</a>
+          <a data-site="links.instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+          <a data-site="links.discord" href="#" target="_blank" rel="noopener" data-needs-discord>Discord</a>
+        </div>
+      </nav>
+    </div>
+    <div class="foot-bot">
+      <span>&copy; <span id="yr">2026</span> <span data-site="name">Loopsely</span></span>
+      <span data-site="handle">@Loopsely</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/motion.js"></script>
+<script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

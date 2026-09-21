@@ -1,0 +1,47 @@
+name: Update videos
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily, 06:00 UTC
+  workflow_dispatch:       # lets you run it by hand from the Actions tab
+  push:
+    paths:
+      - "scripts/fetch-videos.mjs"
+      - "scripts/scrape-videos.mjs"
+      - ".github/workflows/update-videos.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-videos
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Uses the Data API when the YOUTUBE_API_KEY secret exists,
+      # otherwise falls back to reading the public channel pages.
+      - name: Fetch videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/fetch-videos.mjs
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/videos.json; then
+            echo "No change."
+          else
+            git add data/videos.json
+            git commit -m "chore: refresh videos.json"
+            git push
+          fi
