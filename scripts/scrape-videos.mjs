@@ -37,7 +37,16 @@ function findAll(obj, key, out = []) {
 }
 
 function pickLargest(thumbs = []) {
-  return thumbs.reduce((best, t) => (!best || (t.width || 0) > (best.width || 0) ? t : best), null)?.url || "";
+  const area = (t) => (t.width || 0) * (t.height || 0);
+  return (thumbs || [])
+    .filter((t) => t && t.url)
+    .reduce((best, t) => (!best || area(t) > area(best) ? t : best), null)?.url || "";
+}
+
+/** "1:34:10" / "13:01" -> seconds. Anything else (e.g. "LIVE") -> 0. */
+function clockToSeconds(text = "") {
+  if (!/^\d+(:\d{2}){1,2}$/.test(String(text).trim())) return 0;
+  return String(text).trim().split(":").reduce((acc, n) => acc * 60 + Number(n), 0);
 }
 
 /** "15h ago", "Streamed 3 weeks ago", "1mo ago" -> approximate ISO date. */
@@ -75,26 +84,32 @@ function fromListItem(item, type) {
     const parts = findAll(md, "metadataParts").flat().map((p) => p?.text?.content || "");
     const viewsPart = parts.find((p) => /view|^\d[\d.,]*[KMB]?$/i.test(p)) || "";
     const timePart = parts.find((p) => /ago/i.test(p)) || "";
+    const badges = findAll(l.contentImage || {}, "thumbnailBadgeViewModel").map((b) => b.text);
     return {
       id: l.contentId,
       type,
       title: md.title?.content || "",
       views: parseCount(viewsPart),
       published: fromRelative(timePart),
-      thumb: pickLargest(findAll(l.contentImage || {}, "sources")[0])
+      seconds: badges.map(clockToSeconds).find((s) => s > 0) || 0,
+      thumb: pickLargest(l.contentImage?.thumbnailViewModel?.image?.sources)
     };
   }
   if (item.shortsLockupViewModel) {
     const s = item.shortsLockupViewModel;
     const id = findAll(s, "videoId")[0];
     if (!id) return null;
+    // The real image is nested thumbnailViewModel.thumbnailViewModel.image.
+    // A blind search for "sources" finds menu icons first - don't.
+    const tvm = s.thumbnailViewModel?.thumbnailViewModel || s.thumbnailViewModel || {};
     return {
       id,
       type,
       title: s.overlayMetadata?.primaryText?.content || "",
       views: parseCount(s.overlayMetadata?.secondaryText?.content),
-      published: null,
-      thumb: pickLargest(findAll(s.thumbnail || {}, "sources")[0])
+      published: null,          // the Shorts list carries no date at all
+      seconds: 0,
+      thumb: pickLargest(tvm.image?.sources)   // vertical 9:16
     };
   }
   return null;
@@ -174,20 +189,34 @@ async function scrapeTab(channelId, tab, log) {
 }
 
 async function hydrate(video, key, context) {
+  // SCRAPE_SIMULATE_BLOCK=1 reproduces the CI bot-check locally.
+  if (process.env.SCRAPE_SIMULATE_BLOCK) {
+    const err = new Error("simulated"); err.blocked = true; throw err;
+  }
   const p = await postJSON(
     `https://www.youtube.com/youtubei/v1/player?key=${key}&prettyPrint=false`,
     { context, videoId: video.id }
   );
-  const vd = p.videoDetails || {};
+  const vd = p.videoDetails;
   const mf = p.microformat?.playerMicroformatRenderer || {};
+  if (!vd) {
+    // Datacenter IPs (e.g. GitHub Actions) often get a 200 with a bot check
+    // and no video details. Signal it so the caller keeps list data.
+    const err = new Error(p.playabilityStatus?.reason || p.playabilityStatus?.status || "no videoDetails");
+    err.blocked = true;
+    throw err;
+  }
   return {
     ...video,
+    precise: true,
     title: vd.title || video.title,
     // For streams, the moment it went live beats the upload timestamp.
     published: mf.liveBroadcastDetails?.startTimestamp || mf.publishDate || mf.uploadDate || video.published,
     views: vd.viewCount != null ? Number(vd.viewCount) : video.views,
-    seconds: Number(vd.lengthSeconds || 0),
-    thumb: pickLargest(vd.thumbnail?.thumbnails) || video.thumb
+    seconds: Number(vd.lengthSeconds || 0) || video.seconds || 0,
+    // Keep the vertical list image for Shorts; for the rest the player's
+    // largest (usually maxres) beats the list's hq720.
+    thumb: video.type === "short" && video.thumb ? video.thumb : pickLargest(vd.thumbnail?.thumbnails) || video.thumb
   };
 }
 
@@ -223,11 +252,18 @@ export async function scrapeChannel(channelId, { log = console.log } = {}) {
   }
 
   let failed = 0;
+  const reasons = new Map();
   const hydrated = await pool(all, DETAIL_CONCURRENCY, async (v) => {
     try { return await hydrate(v, key, context); }
-    catch { failed++; return { ...v, seconds: 0 }; }   // keep list data rather than drop it
+    catch (e) {
+      failed++;
+      const r = e.blocked ? `blocked: ${e.message}` : e.message;
+      reasons.set(r, (reasons.get(r) || 0) + 1);
+      return { ...v, precise: false };       // keep list data rather than drop it
+    }
   });
-  if (failed) log(`  details failed for ${failed} videos - kept list data for those`);
+  log(`  details: ${all.length - failed} exact, ${failed} from list data`);
+  for (const [r, n] of reasons) log(`    ${n} x ${r.slice(0, 120)}`);
 
   return { videos: hydrated, subscribers: subs, videoCountText: total };
 }
