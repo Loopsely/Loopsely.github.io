@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "63 subscribers",
+  "subscribers": "68 subscribers",
   "source": "scrape",
-  "updated": "2026-09-21T15:36:54.970Z",
-  "count": 99,
+  "updated": "2026-09-22T06:12:00.432Z",
+  "count": 100,
   "counts": {
+    "short": 22,
     "live": 69,
-    "video": 9,
-    "short": 21
+    "video": 9
   },
   "videos": [
+    {
+      "id": "Wdnpuz4x43w",
+      "type": "short",
+      "title": "16th ACE OF THIS ACT  #valorant #gaming #valorantclip",
+      "views": 387,
+      "published": "2026-09-22T06:12:00.431Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/Wdnpuz4x43w/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBH0Zi7KI1_slCh0o9e6Vad_aRBkw&usqp=CCk"
+    },
     {
       "id": "qg8fgl_MC4w",
       "type": "live",
       "title": "Valorant but I am optimistic | LIVE",
-      "views": 99,
+      "views": 103,
       "published": "2026-09-20T15:46:06+00:00",
       "seconds": 16781,
       "thumb": "https://i.ytimg.com/vi/qg8fgl_MC4w/maxresdefault.jpg?v=6aafffac"
@@ -24,7 +33,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 29,
+      "views": 31,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -42,7 +51,7 @@
       "id": "khPH1Z8Tas8",
       "type": "live",
       "title": "Rank Up Is A Myth | VALORANT Ranked Live With @gozyx1z & @SnigdhaStreams",
-      "views": 55,
+      "views": 56,
       "published": "2026-09-19T15:59:29+00:00",
       "seconds": 9335,
       "thumb": "https://i.ytimg.com/vi/khPH1Z8Tas8/maxresdefault.jpg?v=6aaeb150"
@@ -60,7 +69,7 @@
       "id": "mxJ5rna53EY",
       "type": "short",
       "title": "WHEN THE ROUND CLUTCHES ITSELF #valorant #valorantclips #gaming",
-      "views": 573,
+      "views": 576,
       "published": "2026-09-17T23:57:34-07:00",
       "seconds": 28,
       "thumb": "https://i.ytimg.com/vi/mxJ5rna53EY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCUTDOrBMmvOoPyPrP_DUuxqmuO-w&usqp=CCk"
@@ -69,7 +78,7 @@
       "id": "3acvfxVuhGY",
       "type": "live",
       "title": "VALORANT BUT I HAVE GIVEN UP | LIVE WITH @gozyx1z &@Aney777 & @SnigdhaStreams",
-      "views": 49,
+      "views": 51,
       "published": "2026-09-17T16:59:58+00:00",
       "seconds": 5366,
       "thumb": "https://i.ytimg.com/vi/3acvfxVuhGY/maxresdefault.jpg?v=6aac1c7a"
@@ -78,7 +87,7 @@
       "id": "p45HSuSGuFY",
       "type": "live",
       "title": "VALORANT ON LOW CORTISOL | LIVE",
-      "views": 76,
+      "views": 78,
       "published": "2026-09-16T17:16:35+00:00",
       "seconds": 15352,
       "thumb": "https://i.ytimg.com/vi/p45HSuSGuFY/maxresdefault.jpg?v=6aaacee2"
@@ -105,7 +114,7 @@
       "id": "bpsPPWXr9lw",
       "type": "live",
       "title": "VALORANT DURING THUNDERSTORM | LIVE",
-      "views": 140,
+      "views": 141,
       "published": "2026-09-14T17:10:36+00:00",
       "seconds": 12086,
       "thumb": "https://i.ytimg.com/vi/bpsPPWXr9lw/maxresdefault.jpg?v=6aa82a7c"
@@ -132,7 +141,7 @@
       "id": "7pulw-LQ_gA",
       "type": "live",
       "title": "Day 3 of Surviving the Mutants LIVE! 🌲 Sons of the Forest Gameplay With @gozyx1z & @Aney777",
-      "views": 89,
+      "views": 90,
       "published": "2026-09-11T17:22:08+00:00",
       "seconds": 11945,
       "thumb": "https://i.ytimg.com/vi/7pulw-LQ_gA/maxresdefault.jpg?v=6aa438af"
@@ -141,7 +150,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 225,
+      "views": 227,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -150,7 +159,7 @@
       "id": "SvAiIxyAHAs",
       "type": "live",
       "title": "Surviving the Mutants LIVE! 🌲 Sons of the Forest Gameplay with @gozyx1z & @Aney777",
-      "views": 70,
+      "views": 71,
       "published": "2026-09-10T16:49:32+00:00",
       "seconds": 12281,
       "thumb": "https://i.ytimg.com/vi/SvAiIxyAHAs/maxresdefault.jpg?v=6aa2df88"
@@ -366,7 +375,7 @@
       "id": "jxxUmGSRlc0",
       "type": "live",
       "title": "ADVENTURE WITH KOO CONTINUOUS| Beast of Reincarnation Part 4",
-      "views": 274,
+      "views": 275,
       "published": "2026-08-21T08:39:15+00:00",
       "seconds": 7142,
       "thumb": "https://i.ytimg.com/vi/jxxUmGSRlc0/maxresdefault.jpg?v=6a880ea3"
@@ -528,7 +537,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 4400,
+      "views": 4500,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -591,7 +600,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 340,
+      "views": 342,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
