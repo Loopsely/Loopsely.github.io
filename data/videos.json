@@ -1,21 +1,48 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "68 subscribers",
+  "subscribers": "71 subscribers",
   "source": "scrape",
-  "updated": "2026-09-22T06:12:00.432Z",
-  "count": 100,
+  "updated": "2026-09-24T06:12:20.542Z",
+  "count": 103,
   "counts": {
+    "live": 72,
     "short": 22,
-    "live": 69,
     "video": 9
   },
   "videos": [
     {
+      "id": "hcAstbdBcNo",
+      "type": "live",
+      "title": "Testing The NEW Valorant Update | LIVE WITH @gozyx1z   #ValorantLive, #ValorantStreamer",
+      "views": 123,
+      "published": "2026-09-23T22:12:17.704Z",
+      "seconds": 19084,
+      "thumb": "https://i.ytimg.com/vi/hcAstbdBcNo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4ug_-SeyKdfsZ-BP4luYooHhKrg"
+    },
+    {
+      "id": "1L3sAbfBqto",
+      "type": "live",
+      "title": "Can I Beat Every Minecraft Boss LIVE? 🔴 Wither, Warden, Elder Guardian & Ender Dragon",
+      "views": 309,
+      "published": "2026-09-23T06:12:17.704Z",
+      "seconds": 19524,
+      "thumb": "https://i.ytimg.com/vi/1L3sAbfBqto/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1adGv0rz4jFAbTM-S2SrcQFWzQA"
+    },
+    {
+      "id": "nCvIT2V0HF8",
+      "type": "live",
+      "title": "Can I Beat Every Minecraft Boss LIVE? 🔴 Wither, Warden, Elder Guardian & Ender Dragon",
+      "views": 201,
+      "published": "2026-09-23T06:12:17.704Z",
+      "seconds": 14312,
+      "thumb": "https://i.ytimg.com/vi/nCvIT2V0HF8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4IkCWUr52_fqYo3T6Cd0tod8dCA"
+    },
+    {
       "id": "Wdnpuz4x43w",
       "type": "short",
       "title": "16th ACE OF THIS ACT  #valorant #gaming #valorantclip",
-      "views": 387,
+      "views": 501,
       "published": "2026-09-22T06:12:00.431Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/Wdnpuz4x43w/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBH0Zi7KI1_slCh0o9e6Vad_aRBkw&usqp=CCk"
@@ -24,7 +51,7 @@
       "id": "qg8fgl_MC4w",
       "type": "live",
       "title": "Valorant but I am optimistic | LIVE",
-      "views": 103,
+      "views": 109,
       "published": "2026-09-20T15:46:06+00:00",
       "seconds": 16781,
       "thumb": "https://i.ytimg.com/vi/qg8fgl_MC4w/maxresdefault.jpg?v=6aafffac"
@@ -33,7 +60,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 31,
+      "views": 42,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -42,7 +69,7 @@
       "id": "GCXvy2x-Kz4",
       "type": "short",
       "title": "Enemy Waylay when you have a rankup #valorant #shorts #valorantclips",
-      "views": 1300,
+      "views": 1400,
       "published": "2026-09-19T18:40:55-07:00",
       "seconds": 17,
       "thumb": "https://i.ytimg.com/vi/GCXvy2x-Kz4/sardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAONLPF9wP9ttbGp6Ti8V2R-YGNDA"
@@ -51,7 +78,7 @@
       "id": "khPH1Z8Tas8",
       "type": "live",
       "title": "Rank Up Is A Myth | VALORANT Ranked Live With @gozyx1z & @SnigdhaStreams",
-      "views": 56,
+      "views": 57,
       "published": "2026-09-19T15:59:29+00:00",
       "seconds": 9335,
       "thumb": "https://i.ytimg.com/vi/khPH1Z8Tas8/maxresdefault.jpg?v=6aaeb150"
@@ -60,7 +87,7 @@
       "id": "3LFs1hK-4_Y",
       "type": "live",
       "title": "CAN I GET OUT OF PLAT? VALORANT | LIVE",
-      "views": 76,
+      "views": 77,
       "published": "2026-09-18T16:26:24+00:00",
       "seconds": 13637,
       "thumb": "https://i.ytimg.com/vi/3LFs1hK-4_Y/maxresdefault.jpg?v=6aad6620"
@@ -78,7 +105,7 @@
       "id": "3acvfxVuhGY",
       "type": "live",
       "title": "VALORANT BUT I HAVE GIVEN UP | LIVE WITH @gozyx1z &@Aney777 & @SnigdhaStreams",
-      "views": 51,
+      "views": 52,
       "published": "2026-09-17T16:59:58+00:00",
       "seconds": 5366,
       "thumb": "https://i.ytimg.com/vi/3acvfxVuhGY/maxresdefault.jpg?v=6aac1c7a"
@@ -96,7 +123,7 @@
       "id": "IOgtX_ElbY8",
       "type": "live",
       "title": "VALORANT BUT THE HYDRO DRAGON IS CRYING OUTSIDE | LIVE",
-      "views": 170,
+      "views": 171,
       "published": "2026-09-15T16:52:41+00:00",
       "seconds": 15470,
       "thumb": "https://i.ytimg.com/vi/IOgtX_ElbY8/maxresdefault.jpg?v=6aa977c3"
@@ -150,7 +177,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 227,
+      "views": 237,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -159,7 +186,7 @@
       "id": "SvAiIxyAHAs",
       "type": "live",
       "title": "Surviving the Mutants LIVE! 🌲 Sons of the Forest Gameplay with @gozyx1z & @Aney777",
-      "views": 71,
+      "views": 72,
       "published": "2026-09-10T16:49:32+00:00",
       "seconds": 12281,
       "thumb": "https://i.ytimg.com/vi/SvAiIxyAHAs/maxresdefault.jpg?v=6aa2df88"
@@ -177,7 +204,7 @@
       "id": "d6pP1GeWE_4",
       "type": "video",
       "title": "VALORANT WHEN OLD FRIENDS REUNITE #valorant #gaming",
-      "views": 78,
+      "views": 79,
       "published": "2026-09-09T04:14:01-07:00",
       "seconds": 937,
       "thumb": "https://i.ytimg.com/vi/d6pP1GeWE_4/maxresdefault.jpg"
@@ -204,7 +231,7 @@
       "id": "pmMoyc7a_5Q",
       "type": "video",
       "title": "Fighting shidou and nue | BEAST OF REINCARNATION PART 4",
-      "views": 821,
+      "views": 822,
       "published": "2026-09-07T08:42:23-07:00",
       "seconds": 2310,
       "thumb": "https://i.ytimg.com/vi/pmMoyc7a_5Q/maxresdefault.jpg"
@@ -483,7 +510,7 @@
       "id": "7cKhO5PapMY",
       "type": "live",
       "title": "CHAINED TOGETHER ( TESTING THE BONDS OF OUR FRIENDSHIP) | LIVE",
-      "views": 31,
+      "views": 34,
       "published": "2026-08-04T17:35:02+00:00",
       "seconds": 10656,
       "thumb": "https://i.ytimg.com/vi/7cKhO5PapMY/maxresdefault.jpg?v=6a7222b3"
@@ -501,7 +528,7 @@
       "id": "dX1NfF_nfDE",
       "type": "live",
       "title": "(CHAINED TOGETHER)CAN OUR FRIENDSHIP SURVIVE THIS STREAM | LIVE WITH @gozyx1z",
-      "views": 30,
+      "views": 34,
       "published": "2026-08-03T17:05:44+00:00",
       "seconds": 13695,
       "thumb": "https://i.ytimg.com/vi/dX1NfF_nfDE/maxresdefault.jpg?v=6a70ca53"
@@ -519,7 +546,7 @@
       "id": "-NWxBc1q_ZM",
       "type": "live",
       "title": "Can We Escape Hell? 🔗 Chained Together Multiplayer Gameplay w/ Friends",
-      "views": 36,
+      "views": 37,
       "published": "2026-08-02T17:02:07+00:00",
       "seconds": 14791,
       "thumb": "https://i.ytimg.com/vi/-NWxBc1q_ZM/maxresdefault.jpg?v=6a6f77fe"
@@ -537,7 +564,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 4500,
+      "views": 4700,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -600,7 +627,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 342,
+      "views": 343,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
