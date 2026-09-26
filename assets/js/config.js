@@ -42,6 +42,45 @@ window.SITE = {
   // Terminal boot screen shown once per browser session. false turns it off.
   intro: true,
 
+  // Background character. Rides the page: centre in the hero, out
+  // left, over to the right, back to centre at the end. Swings on
+  // arrival and turns around when it changes sides.
+  //
+  // frames: 0 draws a placeholder silhouette. Set it to the number of
+  // sliced frames (frame-00.webp, frame-01.webp, ...) to use real art.
+  // Frame 0 is the resting pose; the rest play once as the swing.
+  character: {
+    enabled: true,
+    frames:  5,         // calm -> guard -> shoulder -> raised -> full height
+    path:    "assets/img/char/frame-%02d.webp",
+    idleFrame: 0,
+    scrub:   true,      // frames follow scroll position; scrolling up rewinds
+    frameMs: 70,        // only used when scrub is false
+    crossfade: 650,     // ms to dissolve between poses; 0 = hard cut
+    smear:     7,       // px of blur while a pose changes; 0 = off
+    float:     10,      // px of slow idle drift so held poses stay alive; 0 = off
+    opacity: 1,
+    height:  0.92,      // full-body height as a fraction of the viewport
+    maxScaleMobile: 1.35, // phones cannot take the full close-up
+    floor:   0,
+
+    // The journey down the page, modelled on docs/ref.
+    //   x     0 = left edge, 0.5 = centre, 1 = right edge
+    //   scale 1 = full body; >1 zooms in like a camera push
+    //   top   optional - keeps the TOP of the figure at this fraction of
+    //         the viewport. Only needed when zoomed in, to choose what
+    //         stays on screen. Omit it and the feet sit on the floor.
+    //   face  1 looks right, -1 looks left
+    //   opacity  1 solid, lower to fade behind busy sections
+    stops: [
+      { sel: ".hero",      x: 0.50, scale: 2.40, top: 1.02, face: 1, opacity: 1.00 },
+      { sel: "#videos",    x: 0.06, scale: 1.05, face:  1, opacity: 0.30 },
+      { sel: "#streams",   x: 0.94, scale: 0.95, face: 1, opacity: 0.30 },
+      { sel: "#shorts",    x: 0.94, scale: 0.95, face: 1, opacity: 0.35 },
+      { sel: "#community", x: 0.82, scale: 1.00, face: 1, opacity: 1.00 }
+    ]
+  },
+
   // Scrolling ticker under the hero. Keep entries short and punchy -
   // they loop forever. Delete the array to fall back to name/handle.
   marquee: [

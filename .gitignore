@@ -10,3 +10,10 @@ node_modules/
 # Local env - never commit keys
 .env
 .env.*
+
+# Source artwork (big PNGs). Kept local; the sliced frames in
+# assets/img/char/ are what the site actually loads.
+art-source/
+
+# Reference screenshots of other sites - local only
+docs/ref/

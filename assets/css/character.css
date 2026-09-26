@@ -1,0 +1,126 @@
+/* ============================================================
+   LOOPSELY - background character
+   A figure that rides the page: centre in the hero, out to the
+   left, over to the right, back to centre at the end. Swings on
+   arrival, turns around when it changes sides.
+
+   Sits behind all content (main is z-index 1), never takes
+   pointer events, and disappears entirely for reduced motion.
+   Delete this file + character.js and nothing else notices.
+   ============================================================ */
+
+.char{
+  position:fixed;
+  /* Anchored to the FLOOR, not the middle of the screen. A standing
+     figure reads as standing only when its feet sit on a baseline. */
+  left:0; bottom:var(--char-floor, 0px);
+  z-index:0;
+  width:0; height:0;
+  pointer-events:none;
+  will-change:transform;
+  /* x comes from JS; the lerp there does the smoothing */
+}
+
+.char-in{
+  position:absolute;
+  left:0; bottom:0;
+  transform:translateX(-50%) scale(var(--s, 1)) rotateY(var(--turn, 0deg));
+  transform-origin:50% 100%;      /* scale from the feet up */
+  transform-style:preserve-3d;
+  transition:transform .55s cubic-bezier(.4,0,.2,1);
+  opacity:var(--char-opacity, 1);
+  filter:drop-shadow(0 0 60px rgba(151, 68, 208, .45));
+}
+
+/* Swing lives on its own layer so its rotation never fights the
+   position / scale / turn transform above it. */
+.char-body{
+  position:relative;
+  transform-origin:50% 88%;   /* pivot near the feet, like a real stance */
+}
+.char-body.ph-swing{ animation:ph-swing .62s cubic-bezier(.34,1.2,.5,1); }
+@keyframes ph-swing{
+  0%   { transform:rotate(0deg)   translateY(0); }
+  18%  { transform:rotate(-16deg) translateY(-6px); }   /* wind up */
+  46%  { transform:rotate(26deg)  translateY(2px); }    /* slash */
+  70%  { transform:rotate(-5deg)  translateY(0); }      /* recoil */
+  100% { transform:rotate(0deg)   translateY(0); }
+}
+
+/* frames stack on top of each other; only the active one shows */
+.char-frame{
+  position:absolute; left:50%; bottom:0;
+  transform:translateX(-50%);
+  height:var(--char-h, 92vh);
+  width:auto;
+  /* The global `img { max-width:100% }` resolves against this container,
+     which is deliberately zero-width - that would clamp every frame to
+     nothing. The figure is sized by height and its own aspect ratio. */
+  max-width:none;
+  opacity:0;
+  image-rendering:auto;
+  /* Cross-fade between poses. Hand-made frames differ a lot from each
+     other, so a hard cut reads as a strobe; a dissolve carries the eye
+     across the gap. */
+  transition:opacity var(--char-fade, 260ms) linear;
+  will-change:opacity;
+}
+.char-frame.on{ opacity:1; }
+
+/* A brief blur while a pose changes. Hand-drawn animation uses smear
+   frames for exactly this reason: the eye accepts a big jump if it is
+   blurred through, and rejects it when every frame is razor sharp. */
+.char-body{ transition:filter var(--char-fade, 260ms) ease-out; }
+.char-body.changing{ filter:blur(var(--char-smear, 5px)); }
+
+/* A held pose looks dead when it is perfectly still. A slow drift keeps
+   it breathing without pulling attention. */
+.char-body.floating{ animation:char-float 7.5s ease-in-out infinite; }
+@keyframes char-float{
+  0%,100% { transform:translateY(0); }
+  50%     { transform:translateY(calc(var(--char-float, 10px) * -1)); }
+}
+
+/* placeholder silhouette, used until real frames exist */
+.char-ph{
+  height:var(--char-h, 92vh);
+  width:auto;
+  display:block;
+  color:var(--accent);
+}
+.char-ph .blade{ color:var(--accent-lt); }
+
+/* A big figure standing in front of dark sections can swallow body text.
+   This is a soft floor glow that lifts it off the background instead. */
+.char-in::after{
+  content:""; position:absolute; left:50%; bottom:-4%;
+  width:120%; height:14%;
+  transform:translateX(-50%);
+  background:radial-gradient(ellipse at center, rgba(151,68,208,.28), transparent 70%);
+  pointer-events:none;
+}
+
+@media (max-width:760px){
+  /* Phones have no room beside the figure, so it sits back a little. */
+  .char-in{ opacity:calc(var(--char-opacity, 1) * .5); }
+  .char-frame, .char-ph{ height:calc(var(--char-h, 92vh) * .8); }
+}
+
+/* No character at all when motion is unwelcome. */
+@media (prefers-reduced-motion: reduce){
+  .char{ display:none !important; }
+}
+
+/* ============================================================
+   A lane for the figure.
+   Like the reference: on wide screens the closing section keeps
+   to the left so the character has clear space on the right
+   instead of being cut in half by a full-width panel.
+   ============================================================ */
+@media (min-width:1200px){
+  html.js #community .wrap{
+    max-width:760px;
+    margin-left:max(var(--gutter), calc((100vw - var(--maxw)) / 2));
+    margin-right:auto;
+  }
+}
