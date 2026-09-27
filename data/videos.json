@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "75 subscribers",
+  "subscribers": "76 subscribers",
   "source": "scrape",
-  "updated": "2026-09-26T06:11:39.338Z",
-  "count": 106,
+  "updated": "2026-09-27T06:11:54.590Z",
+  "count": 107,
   "counts": {
-    "live": 74,
+    "live": 75,
     "short": 23,
     "video": 9
   },
   "videos": [
     {
+      "id": "Zdd-nduO6hk",
+      "type": "live",
+      "title": "MOVING UP IN VALORANT RANKS COS I CANNOT MOVE ON FROM HER | VALORANT",
+      "views": 169,
+      "published": "2026-09-26T23:11:51.784Z",
+      "seconds": 21977,
+      "thumb": "https://i.ytimg.com/vi/Zdd-nduO6hk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCP5xhgkTlEBOH8EkYbQwc-EktmkQ"
+    },
+    {
       "id": "nY98RfJY1d0",
       "type": "live",
       "title": "PLAYING VALORANT COS SHE PLAYED WITH MY FEELINGS | LIVE",
-      "views": 121,
+      "views": 146,
       "published": "2026-09-25T20:11:36.016Z",
       "seconds": 10065,
       "thumb": "https://i.ytimg.com/vi/nY98RfJY1d0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAduFwsn2y6iga1BmrvozML_C9NKw"
@@ -51,7 +60,7 @@
       "id": "1L3sAbfBqto",
       "type": "live",
       "title": "Can I Beat Every Minecraft Boss LIVE? 🔴 Wither, Warden, Elder Guardian & Ender Dragon",
-      "views": 322,
+      "views": 323,
       "published": "2026-09-23T06:12:17.704Z",
       "seconds": 19524,
       "thumb": "https://i.ytimg.com/vi/1L3sAbfBqto/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1adGv0rz4jFAbTM-S2SrcQFWzQA"
@@ -87,7 +96,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 49,
+      "views": 50,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -132,7 +141,7 @@
       "id": "3acvfxVuhGY",
       "type": "live",
       "title": "VALORANT BUT I HAVE GIVEN UP | LIVE WITH @gozyx1z &@Aney777 & @SnigdhaStreams",
-      "views": 53,
+      "views": 56,
       "published": "2026-09-17T16:59:58+00:00",
       "seconds": 5366,
       "thumb": "https://i.ytimg.com/vi/3acvfxVuhGY/maxresdefault.jpg?v=6aac1c7a"
@@ -195,7 +204,7 @@
       "id": "7pulw-LQ_gA",
       "type": "live",
       "title": "Day 3 of Surviving the Mutants LIVE! 🌲 Sons of the Forest Gameplay With @gozyx1z & @Aney777",
-      "views": 90,
+      "views": 91,
       "published": "2026-09-11T17:22:08+00:00",
       "seconds": 11945,
       "thumb": "https://i.ytimg.com/vi/7pulw-LQ_gA/maxresdefault.jpg?v=6aa438af"
@@ -204,7 +213,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 263,
+      "views": 277,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -429,7 +438,7 @@
       "id": "jxxUmGSRlc0",
       "type": "live",
       "title": "ADVENTURE WITH KOO CONTINUOUS| Beast of Reincarnation Part 4",
-      "views": 277,
+      "views": 278,
       "published": "2026-08-21T08:39:15+00:00",
       "seconds": 7142,
       "thumb": "https://i.ytimg.com/vi/jxxUmGSRlc0/maxresdefault.jpg?v=6a880ea3"
@@ -591,7 +600,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 4900,
+      "views": 5100,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
