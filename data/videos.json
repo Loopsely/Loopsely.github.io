@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "80 subscribers",
+  "subscribers": "79 subscribers",
   "source": "scrape",
-  "updated": "2026-10-03T06:17:20.301Z",
-  "count": 116,
+  "updated": "2026-10-04T11:19:52.680Z",
+  "count": 117,
   "counts": {
-    "live": 81,
+    "live": 82,
     "short": 26,
     "video": 9
   },
   "videos": [
     {
+      "id": "1agRgc-8mR8",
+      "type": "live",
+      "title": "DESTROYING MY VALORANT RANK AS SHE DESTROYED ME | LIVE",
+      "views": 85,
+      "published": "2026-10-03T19:19:49.237Z",
+      "seconds": 12364,
+      "thumb": "https://i.ytimg.com/vi/1agRgc-8mR8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjltospZNeKQgXiuf3iYpSmgog-w"
+    },
+    {
       "id": "MXjRyhhQZCU",
       "type": "live",
       "title": "PULLING ENEMIES IN VALORANT AS I COULDN'T PULL HER | LIVE P.S @SnigdhaStreams IS A BULLY",
-      "views": 442,
+      "views": 458,
       "published": "2026-10-02T21:17:17.305Z",
       "seconds": 19046,
       "thumb": "https://i.ytimg.com/vi/MXjRyhhQZCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqVHpYBcJGYnVH9d2boRLgodaKig"
@@ -51,7 +60,7 @@
       "id": "zslpXQfifyk",
       "type": "live",
       "title": "VALORANT BUT ITS \" WOOF WOOF MOMMY\" | LIVE",
-      "views": 103,
+      "views": 104,
       "published": "2026-09-29T22:12:22.741Z",
       "seconds": 17681,
       "thumb": "https://i.ytimg.com/vi/zslpXQfifyk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIYIkcbmzxm7sLsUby35fltsupZQ"
@@ -69,7 +78,7 @@
       "id": "huVWHJIWLNY",
       "type": "live",
       "title": "WANTING TO PLAY VALORANT COS SHE DIDN'T WANT ME | LIVE",
-      "views": 285,
+      "views": 288,
       "published": "2026-09-28T21:12:29.729Z",
       "seconds": 17281,
       "thumb": "https://i.ytimg.com/vi/huVWHJIWLNY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDY4K8spf_amN0FSbom0iUrS_-J5g"
@@ -177,7 +186,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 58,
+      "views": 60,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -294,7 +303,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 290,
+      "views": 291,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -348,7 +357,7 @@
       "id": "pmMoyc7a_5Q",
       "type": "video",
       "title": "Fighting shidou and nue | BEAST OF REINCARNATION PART 4",
-      "views": 824,
+      "views": 825,
       "published": "2026-09-07T08:42:23-07:00",
       "seconds": 2310,
       "thumb": "https://i.ytimg.com/vi/pmMoyc7a_5Q/maxresdefault.jpg"
@@ -600,7 +609,7 @@
       "id": "I4jfYg364wg",
       "type": "video",
       "title": "Exploring Post-Apocalyptic Japan | Beast of Reincarnation - Gameplay Part 2",
-      "views": 15,
+      "views": 16,
       "published": "2026-08-10T05:45:33-07:00",
       "seconds": 2582,
       "thumb": "https://i.ytimg.com/vi/I4jfYg364wg/maxresdefault.jpg"
@@ -681,7 +690,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 5900,
+      "views": 6000,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
