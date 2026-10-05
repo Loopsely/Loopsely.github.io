@@ -1,21 +1,39 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "79 subscribers",
+  "subscribers": "81 subscribers",
   "source": "scrape",
-  "updated": "2026-10-04T11:19:52.680Z",
-  "count": 117,
+  "updated": "2026-10-05T06:16:24.533Z",
+  "count": 119,
   "counts": {
-    "live": 82,
-    "short": 26,
+    "short": 27,
+    "live": 83,
     "video": 9
   },
   "videos": [
     {
+      "id": "FIc3c_gqCFc",
+      "type": "short",
+      "title": "Traumatizing Sage #valorant #valorantclips#gaming",
+      "views": 451,
+      "published": "2026-10-05T06:16:24.532Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/FIc3c_gqCFc/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB_jMxhRP8yrcBZ5BslmX-M43jybw&usqp=CCk"
+    },
+    {
+      "id": "_j-uSnewDuc",
+      "type": "live",
+      "title": "BOYFRIEND DAY IS GONE AND SO IS MY VALORANT RANK | LIVE",
+      "views": 68,
+      "published": "2026-10-04T21:16:21.067Z",
+      "seconds": 17733,
+      "thumb": "https://i.ytimg.com/vi/_j-uSnewDuc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOzeG750j0l7SKYF6VgcYqmXVk5A"
+    },
+    {
       "id": "1agRgc-8mR8",
       "type": "live",
       "title": "DESTROYING MY VALORANT RANK AS SHE DESTROYED ME | LIVE",
-      "views": 85,
+      "views": 114,
       "published": "2026-10-03T19:19:49.237Z",
       "seconds": 12364,
       "thumb": "https://i.ytimg.com/vi/1agRgc-8mR8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjltospZNeKQgXiuf3iYpSmgog-w"
@@ -24,7 +42,7 @@
       "id": "MXjRyhhQZCU",
       "type": "live",
       "title": "PULLING ENEMIES IN VALORANT AS I COULDN'T PULL HER | LIVE P.S @SnigdhaStreams IS A BULLY",
-      "views": 458,
+      "views": 460,
       "published": "2026-10-02T21:17:17.305Z",
       "seconds": 19046,
       "thumb": "https://i.ytimg.com/vi/MXjRyhhQZCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqVHpYBcJGYnVH9d2boRLgodaKig"
@@ -33,7 +51,7 @@
       "id": "hU9ZdPXDWGQ",
       "type": "live",
       "title": "TRYING TO GET A HIGHER VALORANT RANK AS I DIDN'T GET HER | LIVE",
-      "views": 90,
+      "views": 96,
       "published": "2026-10-02T06:17:17.306Z",
       "seconds": 18670,
       "thumb": "https://i.ytimg.com/vi/hU9ZdPXDWGQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7sZ9yUc2gVEjrii2MinijmvtBZA"
@@ -42,7 +60,7 @@
       "id": "jUbeaFGRPkY",
       "type": "live",
       "title": "TRYING TO REACH DIAMOND IN VALORANT AS I LOST A DIAMOND (HER)  IRL | LIVE",
-      "views": 261,
+      "views": 262,
       "published": "2026-09-30T23:14:13.629Z",
       "seconds": 20263,
       "thumb": "https://i.ytimg.com/vi/jUbeaFGRPkY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDtQ7f2sY4JiNm8cS3vpbFzfHMEUQ"
@@ -186,7 +204,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 60,
+      "views": 62,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -222,7 +240,7 @@
       "id": "mxJ5rna53EY",
       "type": "short",
       "title": "WHEN THE ROUND CLUTCHES ITSELF #valorant #valorantclips #gaming",
-      "views": 583,
+      "views": 584,
       "published": "2026-09-17T23:57:34-07:00",
       "seconds": 28,
       "thumb": "https://i.ytimg.com/vi/mxJ5rna53EY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCUTDOrBMmvOoPyPrP_DUuxqmuO-w&usqp=CCk"
@@ -591,7 +609,7 @@
       "id": "IPMx9cR84ks",
       "type": "live",
       "title": "LORT \"Shots and Prayers\" Update achievements maxing | LIVE | #LORT #LORTUpdate #Roguelite",
-      "views": 62,
+      "views": 63,
       "published": "2026-08-12T16:35:37+00:00",
       "seconds": 13248,
       "thumb": "https://i.ytimg.com/vi/IPMx9cR84ks/maxresdefault.jpg?v=6a7ca0c3"
@@ -690,7 +708,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 6000,
+      "views": 6100,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -744,7 +762,7 @@
       "id": "jwkpjTovb4k",
       "type": "live",
       "title": "LORT TIME",
-      "views": 46,
+      "views": 47,
       "published": "2026-07-21T15:53:29+00:00",
       "seconds": 13228,
       "thumb": "https://i.ytimg.com/vi/jwkpjTovb4k/maxresdefault.jpg?v=6a5f95e2"
