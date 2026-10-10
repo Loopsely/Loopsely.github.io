@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "81 subscribers",
+  "subscribers": "83 subscribers",
   "source": "scrape",
-  "updated": "2026-10-09T06:13:57.061Z",
-  "count": 121,
+  "updated": "2026-10-10T06:11:59.139Z",
+  "count": 122,
   "counts": {
-    "live": 85,
+    "live": 86,
     "short": 27,
     "video": 9
   },
   "videos": [
     {
+      "id": "elighAwKE_0",
+      "type": "live",
+      "title": "MINECRAFT ON LOW CORTISON WITH @SnigdhaStreams | LIVE",
+      "views": 38,
+      "published": "2026-10-09T18:11:56.088Z",
+      "seconds": 7206,
+      "thumb": "https://i.ytimg.com/vi/elighAwKE_0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9qwKV3B4S8CxkCNyE82oHwaymdg"
+    },
+    {
       "id": "-VwlV4KO6NQ",
       "type": "live",
       "title": "OUR FRIENDSHIP VS RV THERE YET | St Buttin BAY LIVE WITH @SnigdhaStreams &@gozyx1z",
-      "views": 41,
+      "views": 49,
       "published": "2026-10-06T20:11:30.601Z",
       "seconds": 12828,
       "thumb": "https://i.ytimg.com/vi/-VwlV4KO6NQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHnIR8o4bgtbOBCc4KkfMFvhwiOA"
@@ -222,7 +231,7 @@
       "id": "4TNObIfsOag",
       "type": "video",
       "title": "Beast of Reincarnation Gameplay Part 5 - Defeating Taurus, Shidou & Nue Malefact",
-      "views": 62,
+      "views": 63,
       "published": "2026-09-20T08:26:51-07:00",
       "seconds": 5649,
       "thumb": "https://i.ytimg.com/vi/4TNObIfsOag/maxresdefault.jpg"
@@ -726,7 +735,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 6600,
+      "views": 6700,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -969,7 +978,7 @@
       "id": "hfBdx6I4mQY",
       "type": "short",
       "title": "Yellow Loong CAN'T Touch Me 😤 Damage Reduction Build | Black Myth Wukong #blackmythwukonggameplay",
-      "views": 847,
+      "views": 848,
       "published": "2026-07-01T00:16:05-07:00",
       "seconds": 154,
       "thumb": "https://i.ytimg.com/vi/hfBdx6I4mQY/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC3t26WMUHIyWPmDB7pzQxR1VqnQg&usqp=CCk"
