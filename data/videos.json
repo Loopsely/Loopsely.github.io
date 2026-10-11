@@ -3,19 +3,28 @@
   "channelTitle": "Loopsely",
   "subscribers": "83 subscribers",
   "source": "scrape",
-  "updated": "2026-10-10T06:11:59.139Z",
-  "count": 122,
+  "updated": "2026-10-11T06:12:28.904Z",
+  "count": 123,
   "counts": {
-    "live": 86,
+    "live": 87,
     "short": 27,
     "video": 9
   },
   "videos": [
     {
+      "id": "4i3dwSd2B3E",
+      "type": "live",
+      "title": "WE ARE NOT THERE YET | RV THERE YET LIVE WITH @SnigdhaStreams & @gozyx1z",
+      "views": 40,
+      "published": "2026-10-10T19:12:25.358Z",
+      "seconds": 10137,
+      "thumb": "https://i.ytimg.com/vi/4i3dwSd2B3E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7POeKGpYeDNo39jWP8sZ8qV-tjg"
+    },
+    {
       "id": "elighAwKE_0",
       "type": "live",
       "title": "MINECRAFT ON LOW CORTISON WITH @SnigdhaStreams | LIVE",
-      "views": 38,
+      "views": 64,
       "published": "2026-10-09T18:11:56.088Z",
       "seconds": 7206,
       "thumb": "https://i.ytimg.com/vi/elighAwKE_0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9qwKV3B4S8CxkCNyE82oHwaymdg"
@@ -24,7 +33,7 @@
       "id": "-VwlV4KO6NQ",
       "type": "live",
       "title": "OUR FRIENDSHIP VS RV THERE YET | St Buttin BAY LIVE WITH @SnigdhaStreams &@gozyx1z",
-      "views": 49,
+      "views": 52,
       "published": "2026-10-06T20:11:30.601Z",
       "seconds": 12828,
       "thumb": "https://i.ytimg.com/vi/-VwlV4KO6NQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHnIR8o4bgtbOBCc4KkfMFvhwiOA"
@@ -51,7 +60,7 @@
       "id": "_j-uSnewDuc",
       "type": "live",
       "title": "BOYFRIEND DAY IS GONE AND SO IS MY VALORANT RANK | LIVE",
-      "views": 84,
+      "views": 85,
       "published": "2026-10-04T21:16:21.067Z",
       "seconds": 17733,
       "thumb": "https://i.ytimg.com/vi/_j-uSnewDuc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOzeG750j0l7SKYF6VgcYqmXVk5A"
@@ -60,7 +69,7 @@
       "id": "1agRgc-8mR8",
       "type": "live",
       "title": "DESTROYING MY VALORANT RANK AS SHE DESTROYED ME | LIVE",
-      "views": 119,
+      "views": 120,
       "published": "2026-10-03T19:19:49.237Z",
       "seconds": 12364,
       "thumb": "https://i.ytimg.com/vi/1agRgc-8mR8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjltospZNeKQgXiuf3iYpSmgog-w"
@@ -276,7 +285,7 @@
       "id": "3acvfxVuhGY",
       "type": "live",
       "title": "VALORANT BUT I HAVE GIVEN UP | LIVE WITH @gozyx1z &@Aney777 & @SnigdhaStreams",
-      "views": 57,
+      "views": 58,
       "published": "2026-09-17T16:59:58+00:00",
       "seconds": 5366,
       "thumb": "https://i.ytimg.com/vi/3acvfxVuhGY/maxresdefault.jpg?v=6aac1c7a"
@@ -312,7 +321,7 @@
       "id": "bpsPPWXr9lw",
       "type": "live",
       "title": "VALORANT DURING THUNDERSTORM | LIVE",
-      "views": 142,
+      "views": 143,
       "published": "2026-09-14T17:10:36+00:00",
       "seconds": 12086,
       "thumb": "https://i.ytimg.com/vi/bpsPPWXr9lw/maxresdefault.jpg?v=6aa82a7c"
@@ -321,7 +330,7 @@
       "id": "V7M33gTCJO8",
       "type": "live",
       "title": "BACK TO VALORANT  | LIVE",
-      "views": 69,
+      "views": 70,
       "published": "2026-09-13T16:45:19+00:00",
       "seconds": 13132,
       "thumb": "https://i.ytimg.com/vi/V7M33gTCJO8/maxresdefault.jpg?v=6aa6d307"
@@ -348,7 +357,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 302,
+      "views": 305,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -735,7 +744,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 6700,
+      "views": 6800,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -798,7 +807,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 343,
+      "views": 345,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
@@ -825,7 +834,7 @@
       "id": "UzwYKrMXvl0",
       "type": "short",
       "title": "CROAKS MALONE IS INSANE #LORT #CroaksMalone #roguelite",
-      "views": 64,
+      "views": 65,
       "published": "2026-07-15T01:19:10-07:00",
       "seconds": 180,
       "thumb": "https://i.ytimg.com/vi/UzwYKrMXvl0/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDLV6AYt2vpJq5YL5MZo8Z6BPN6hg&usqp=CCk"
