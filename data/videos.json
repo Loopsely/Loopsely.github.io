@@ -1,21 +1,39 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "83 subscribers",
+  "subscribers": "86 subscribers",
   "source": "scrape",
-  "updated": "2026-10-12T06:16:22.395Z",
-  "count": 123,
+  "updated": "2026-10-13T06:15:12.738Z",
+  "count": 125,
   "counts": {
-    "live": 87,
-    "short": 27,
+    "short": 28,
+    "live": 88,
     "video": 9
   },
   "videos": [
     {
+      "id": "2hsgnWNaz34",
+      "type": "short",
+      "title": "NEW VALORANT SECRET SKIN ?  #valorant #valorantclips#gaming #shorts",
+      "views": 624,
+      "published": "2026-10-13T06:15:12.737Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/2hsgnWNaz34/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBRUYCoWunwmukSf07kW4YDsQfXsA&usqp=CCk"
+    },
+    {
+      "id": "1594iPs7u2A",
+      "type": "live",
+      "title": "VALORANT BUT I'm A GOOD BOY BECAUSE I ALWAYS SAY WOOF WOOF MOMMY| LIVE",
+      "views": 42,
+      "published": "2026-10-12T13:15:08.530Z",
+      "seconds": 10111,
+      "thumb": "https://i.ytimg.com/vi/1594iPs7u2A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgfBkq54tgfD7PSeB-3PSDQVslXQ"
+    },
+    {
       "id": "4i3dwSd2B3E",
       "type": "live",
       "title": "WE ARE NOT THERE YET | RV THERE YET LIVE WITH @SnigdhaStreams & @gozyx1z",
-      "views": 90,
+      "views": 94,
       "published": "2026-10-10T19:12:25.358Z",
       "seconds": 10137,
       "thumb": "https://i.ytimg.com/vi/4i3dwSd2B3E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7POeKGpYeDNo39jWP8sZ8qV-tjg"
@@ -24,7 +42,7 @@
       "id": "elighAwKE_0",
       "type": "live",
       "title": "MINECRAFT ON LOW CORTISON WITH @SnigdhaStreams | LIVE",
-      "views": 71,
+      "views": 74,
       "published": "2026-10-09T18:11:56.088Z",
       "seconds": 7206,
       "thumb": "https://i.ytimg.com/vi/elighAwKE_0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9qwKV3B4S8CxkCNyE82oHwaymdg"
@@ -87,7 +105,7 @@
       "id": "hU9ZdPXDWGQ",
       "type": "live",
       "title": "TRYING TO GET A HIGHER VALORANT RANK AS I DIDN'T GET HER | LIVE",
-      "views": 96,
+      "views": 97,
       "published": "2026-10-02T06:17:17.306Z",
       "seconds": 18670,
       "thumb": "https://i.ytimg.com/vi/hU9ZdPXDWGQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7sZ9yUc2gVEjrii2MinijmvtBZA"
@@ -141,7 +159,7 @@
       "id": "MsRHl1MwUdI",
       "type": "short",
       "title": "Average Swiftplay Shenanigans in Valorant 💀 #valorant #valorantclips #gaming",
-      "views": 53,
+      "views": 54,
       "published": "2026-09-28T06:13:07.657Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/MsRHl1MwUdI/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDcKLIvp09sv6MHWfOwZ2eP8H_h6w&usqp=CCk"
@@ -150,7 +168,7 @@
       "id": "QoLicZykbCI",
       "type": "live",
       "title": "TRYING TO WIN A VALORANT MATCH COS I COULDN'T WIN HER OVER | LIVE",
-      "views": 262,
+      "views": 263,
       "published": "2026-09-27T22:13:04.880Z",
       "seconds": 17680,
       "thumb": "https://i.ytimg.com/vi/QoLicZykbCI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYOLvXYr9hGqy5-vkkjfmINnPYQw"
@@ -168,7 +186,7 @@
       "id": "nY98RfJY1d0",
       "type": "live",
       "title": "PLAYING VALORANT COS SHE PLAYED WITH MY FEELINGS | LIVE",
-      "views": 167,
+      "views": 168,
       "published": "2026-09-25T20:11:36.016Z",
       "seconds": 10065,
       "thumb": "https://i.ytimg.com/vi/nY98RfJY1d0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAduFwsn2y6iga1BmrvozML_C9NKw"
@@ -186,7 +204,7 @@
       "id": "mRzkd76QHVQ",
       "type": "live",
       "title": "GLOD 3 OR PLAT 2 VALORANT | LIVE",
-      "views": 84,
+      "views": 85,
       "published": "2026-09-24T21:11:50.207Z",
       "seconds": 12425,
       "thumb": "https://i.ytimg.com/vi/mRzkd76QHVQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDWB6S1QUYJ0XUGJGcN3oHiwZW0vA"
@@ -258,7 +276,7 @@
       "id": "khPH1Z8Tas8",
       "type": "live",
       "title": "Rank Up Is A Myth | VALORANT Ranked Live With @gozyx1z & @SnigdhaStreams",
-      "views": 62,
+      "views": 63,
       "published": "2026-09-19T15:59:29+00:00",
       "seconds": 9335,
       "thumb": "https://i.ytimg.com/vi/khPH1Z8Tas8/maxresdefault.jpg?v=6aaeb150"
@@ -357,7 +375,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 309,
+      "views": 310,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
@@ -744,7 +762,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 6900,
+      "views": 7000,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -1104,7 +1122,7 @@
       "id": "GhOYhWOPf3k",
       "type": "live",
       "title": "MINECRAFT LIVE | WITH BOYS @zyx1zflows & @illuso7825",
-      "views": 17,
+      "views": 18,
       "published": "2026-06-19T17:10:09+00:00",
       "seconds": 21557,
       "thumb": "https://i.ytimg.com/vi/GhOYhWOPf3k/maxresdefault.jpg?v=6a3577e3"
@@ -1113,7 +1131,7 @@
       "id": "oA53AjxorHA",
       "type": "live",
       "title": "CS2 LIVE | WITH BOYS | #CS2 #CS2Live #gaming",
-      "views": 30,
+      "views": 31,
       "published": "2026-06-18T18:39:40+00:00",
       "seconds": 8509,
       "thumb": "https://i.ytimg.com/vi/oA53AjxorHA/maxresdefault.jpg?v=6a343b5c"
