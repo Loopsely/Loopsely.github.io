@@ -1,16 +1,25 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "86 subscribers",
+  "subscribers": "88 subscribers",
   "source": "scrape",
-  "updated": "2026-10-21T06:27:13.902Z",
-  "count": 129,
+  "updated": "2026-10-22T11:08:50.571Z",
+  "count": 130,
   "counts": {
-    "live": 92,
+    "live": 93,
     "short": 28,
     "video": 9
   },
   "videos": [
+    {
+      "id": "Hm4I8cVmhH4",
+      "type": "live",
+      "title": "Beating Every Minecraft Boss LIVE? Wither, Warden, Elder Guardian & Ender Dragon @SnigdhaStreams",
+      "views": 150,
+      "published": "2026-10-21T20:08:45.073Z",
+      "seconds": 16158,
+      "thumb": "https://i.ytimg.com/vi/Hm4I8cVmhH4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLARJ5BQNKd24R0BFVHCyZA7ANJTsw"
+    },
     {
       "id": "YLHlGxI9c7o",
       "type": "live",
@@ -222,7 +231,7 @@
       "id": "nY98RfJY1d0",
       "type": "live",
       "title": "PLAYING VALORANT COS SHE PLAYED WITH MY FEELINGS | LIVE",
-      "views": 169,
+      "views": 170,
       "published": "2026-09-25T20:11:36.016Z",
       "seconds": 10065,
       "thumb": "https://i.ytimg.com/vi/nY98RfJY1d0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAduFwsn2y6iga1BmrvozML_C9NKw"
@@ -798,7 +807,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 8000,
+      "views": 8100,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
