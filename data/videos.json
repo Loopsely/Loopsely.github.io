@@ -1,16 +1,34 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "88 subscribers",
+  "subscribers": "87 subscribers",
   "source": "scrape",
-  "updated": "2026-10-22T11:08:50.571Z",
-  "count": 130,
+  "updated": "2026-10-23T10:59:36.727Z",
+  "count": 132,
   "counts": {
-    "live": 93,
-    "short": 28,
+    "short": 29,
+    "live": 94,
     "video": 9
   },
   "videos": [
+    {
+      "id": "8XmG80BBzfk",
+      "type": "short",
+      "title": "WINNING ECOS AS I COULDN'T WIN HER  #valorant #gaming #shorts",
+      "views": 601,
+      "published": "2026-10-23T10:59:36.726Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/8XmG80BBzfk/oar1.jpg?sqp=-oaymwEhCJUDENAFSFWQAgHyq4qpAxAIARUAAIhCcAHAAQa4AvcY&rs=AOn4CLCQTWvCJuVObwbFszdnVc3q-Xx_zg"
+    },
+    {
+      "id": "qjP-X9wIm_w",
+      "type": "live",
+      "title": "Countering My Strike Today | Counter-Strike 2 LIVE With @gozyx1z",
+      "views": 160,
+      "published": "2026-10-22T20:59:32.974Z",
+      "seconds": 14073,
+      "thumb": "https://i.ytimg.com/vi/qjP-X9wIm_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi-9ejWBhjg6gQg4KgB&rs=AOn4CLAVtNPpWJoVoBArgv5PG9laP8kLaA&usqp=CBU"
+    },
     {
       "id": "Hm4I8cVmhH4",
       "type": "live",
@@ -24,7 +42,7 @@
       "id": "YLHlGxI9c7o",
       "type": "live",
       "title": "🔴LIVE VALORANT | WHILE EVERYONE IS PLAYING GARBA I'm PLAYING VALORANT",
-      "views": 85,
+      "views": 87,
       "published": "2026-10-18T06:20:33.091Z",
       "seconds": 9474,
       "thumb": "https://i.ytimg.com/vi/YLHlGxI9c7o/hq720.jpg?v=6ad44101&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrI0LKC-gkpygKGnT8xfnnXX7NWg"
@@ -105,7 +123,7 @@
       "id": "Mhq1tV3BxGk",
       "type": "live",
       "title": "VALORANT BUT MY DUTY IS NOT OVER | LIVE",
-      "views": 120,
+      "views": 121,
       "published": "2026-10-05T20:12:43.231Z",
       "seconds": 12215,
       "thumb": "https://i.ytimg.com/vi/Mhq1tV3BxGk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi_mo_WBhjg6gQg4KgB&rs=AOn4CLDaaBTcBrRur1uLyeDoIyZs9qfejA&usqp=CBU"
@@ -807,7 +825,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 8100,
+      "views": 8200,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -897,7 +915,7 @@
       "id": "UzwYKrMXvl0",
       "type": "short",
       "title": "CROAKS MALONE IS INSANE #LORT #CroaksMalone #roguelite",
-      "views": 66,
+      "views": 67,
       "published": "2026-07-15T01:19:10-07:00",
       "seconds": 180,
       "thumb": "https://i.ytimg.com/vi/UzwYKrMXvl0/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDLV6AYt2vpJq5YL5MZo8Z6BPN6hg&usqp=CCk"
