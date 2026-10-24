@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "87 subscribers",
+  "subscribers": "88 subscribers",
   "source": "scrape",
-  "updated": "2026-10-23T10:59:36.727Z",
-  "count": 132,
+  "updated": "2026-10-24T10:16:20.497Z",
+  "count": 133,
   "counts": {
+    "live": 95,
     "short": 29,
-    "live": 94,
     "video": 9
   },
   "videos": [
     {
+      "id": "tWsfVeKuSic",
+      "type": "live",
+      "title": "EARLY DE-RANK ACCESS | 🔴LIVE VALORANT",
+      "views": 123,
+      "published": "2026-10-23T21:16:16.172Z",
+      "seconds": 16181,
+      "thumb": "https://i.ytimg.com/vi/tWsfVeKuSic/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX32kG414UCtwZRW5fShZFR_IyzQ"
+    },
+    {
       "id": "8XmG80BBzfk",
       "type": "short",
       "title": "WINNING ECOS AS I COULDN'T WIN HER  #valorant #gaming #shorts",
-      "views": 601,
+      "views": 1400,
       "published": "2026-10-23T10:59:36.726Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/8XmG80BBzfk/oar1.jpg?sqp=-oaymwEhCJUDENAFSFWQAgHyq4qpAxAIARUAAIhCcAHAAQa4AvcY&rs=AOn4CLCQTWvCJuVObwbFszdnVc3q-Xx_zg"
@@ -51,7 +60,7 @@
       "id": "XR_o_VG-bsg",
       "type": "live",
       "title": "🔴LIVE VALORANT | \" AT THE AGE OF HOLDING HANDS I'm HOLDING SITES\"",
-      "views": 318,
+      "views": 319,
       "published": "2026-10-16T12:20:39.269Z",
       "seconds": 11630,
       "thumb": "https://i.ytimg.com/vi/XR_o_VG-bsg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqleFfUijib0NmJo75cYb8UCGmMg"
