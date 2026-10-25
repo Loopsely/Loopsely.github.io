@@ -3,19 +3,28 @@
   "channelTitle": "Loopsely",
   "subscribers": "88 subscribers",
   "source": "scrape",
-  "updated": "2026-10-24T10:16:20.497Z",
-  "count": 133,
+  "updated": "2026-10-25T10:42:13.217Z",
+  "count": 134,
   "counts": {
+    "short": 30,
     "live": 95,
-    "short": 29,
     "video": 9
   },
   "videos": [
     {
+      "id": "cvN64nbf-44",
+      "type": "short",
+      "title": "SOVA WITH THE INSANE ASSIST #valorant #valorantclips #gaming",
+      "views": 883,
+      "published": "2026-10-25T10:42:13.216Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/cvN64nbf-44/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCrvedHl826f0PWs58en1BT1C744g"
+    },
+    {
       "id": "tWsfVeKuSic",
       "type": "live",
       "title": "EARLY DE-RANK ACCESS | 🔴LIVE VALORANT",
-      "views": 123,
+      "views": 132,
       "published": "2026-10-23T21:16:16.172Z",
       "seconds": 16181,
       "thumb": "https://i.ytimg.com/vi/tWsfVeKuSic/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX32kG414UCtwZRW5fShZFR_IyzQ"
@@ -24,7 +33,7 @@
       "id": "8XmG80BBzfk",
       "type": "short",
       "title": "WINNING ECOS AS I COULDN'T WIN HER  #valorant #gaming #shorts",
-      "views": 1400,
+      "views": 1500,
       "published": "2026-10-23T10:59:36.726Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/8XmG80BBzfk/oar1.jpg?sqp=-oaymwEhCJUDENAFSFWQAgHyq4qpAxAIARUAAIhCcAHAAQa4AvcY&rs=AOn4CLCQTWvCJuVObwbFszdnVc3q-Xx_zg"
@@ -33,7 +42,7 @@
       "id": "qjP-X9wIm_w",
       "type": "live",
       "title": "Countering My Strike Today | Counter-Strike 2 LIVE With @gozyx1z",
-      "views": 160,
+      "views": 167,
       "published": "2026-10-22T20:59:32.974Z",
       "seconds": 14073,
       "thumb": "https://i.ytimg.com/vi/qjP-X9wIm_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi-9ejWBhjg6gQg4KgB&rs=AOn4CLAVtNPpWJoVoBArgv5PG9laP8kLaA&usqp=CBU"
@@ -42,7 +51,7 @@
       "id": "Hm4I8cVmhH4",
       "type": "live",
       "title": "Beating Every Minecraft Boss LIVE? Wither, Warden, Elder Guardian & Ender Dragon @SnigdhaStreams",
-      "views": 150,
+      "views": 152,
       "published": "2026-10-21T20:08:45.073Z",
       "seconds": 16158,
       "thumb": "https://i.ytimg.com/vi/Hm4I8cVmhH4/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLARJ5BQNKd24R0BFVHCyZA7ANJTsw"
@@ -51,7 +60,7 @@
       "id": "YLHlGxI9c7o",
       "type": "live",
       "title": "🔴LIVE VALORANT | WHILE EVERYONE IS PLAYING GARBA I'm PLAYING VALORANT",
-      "views": 87,
+      "views": 89,
       "published": "2026-10-18T06:20:33.091Z",
       "seconds": 9474,
       "thumb": "https://i.ytimg.com/vi/YLHlGxI9c7o/hq720.jpg?v=6ad44101&sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrI0LKC-gkpygKGnT8xfnnXX7NWg"
@@ -258,7 +267,7 @@
       "id": "nY98RfJY1d0",
       "type": "live",
       "title": "PLAYING VALORANT COS SHE PLAYED WITH MY FEELINGS | LIVE",
-      "views": 170,
+      "views": 171,
       "published": "2026-09-25T20:11:36.016Z",
       "seconds": 10065,
       "thumb": "https://i.ytimg.com/vi/nY98RfJY1d0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAduFwsn2y6iga1BmrvozML_C9NKw"
@@ -897,7 +906,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 345,
+      "views": 348,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
