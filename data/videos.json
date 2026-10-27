@@ -1,16 +1,43 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "88 subscribers",
+  "subscribers": "91 subscribers",
   "source": "scrape",
-  "updated": "2026-10-26T12:14:25.716Z",
-  "count": 134,
+  "updated": "2026-10-27T11:35:08.992Z",
+  "count": 137,
   "counts": {
+    "live": 98,
     "short": 30,
-    "live": 95,
     "video": 9
   },
   "videos": [
+    {
+      "id": "SkEe0OkOHNc",
+      "type": "live",
+      "title": "TOO LAZY TO EDIT SO STREAMING | Beast of Reincarnation Live",
+      "views": 133,
+      "published": "2026-10-27T08:35:04.651Z",
+      "seconds": 8950,
+      "thumb": "https://i.ytimg.com/vi/SkEe0OkOHNc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-eK9rXkfFmaqaTqo5E0rj_obTXA"
+    },
+    {
+      "id": "bWHqbJB4G6I",
+      "type": "live",
+      "title": "GOING DOWN IN RANKS AS I WOULD GO DOWN ON HER | 🔴LIVE VALORANT",
+      "views": 487,
+      "published": "2026-10-26T22:35:04.651Z",
+      "seconds": 19094,
+      "thumb": "https://i.ytimg.com/vi/bWHqbJB4G6I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTCJldNKLITC2XFGEQFHLMPY56Ng"
+    },
+    {
+      "id": "r9sxJW-356I",
+      "type": "live",
+      "title": "Black Myth: Wukong LIVE | FINISHING CHAPTER 5 AND MORE IF WE HAVE TIME",
+      "views": 91,
+      "published": "2026-10-26T16:35:04.651Z",
+      "seconds": 7732,
+      "thumb": "https://i.ytimg.com/vi/r9sxJW-356I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnwUUFWF2yX7Cwj3Q6kC5YDDPCaQ"
+    },
     {
       "id": "cvN64nbf-44",
       "type": "short",
@@ -24,7 +51,7 @@
       "id": "tWsfVeKuSic",
       "type": "live",
       "title": "EARLY DE-RANK ACCESS | 🔴LIVE VALORANT",
-      "views": 139,
+      "views": 144,
       "published": "2026-10-23T21:16:16.172Z",
       "seconds": 16181,
       "thumb": "https://i.ytimg.com/vi/tWsfVeKuSic/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX32kG414UCtwZRW5fShZFR_IyzQ"
@@ -42,7 +69,7 @@
       "id": "qjP-X9wIm_w",
       "type": "live",
       "title": "Countering My Strike Today | Counter-Strike 2 LIVE With @gozyx1z",
-      "views": 169,
+      "views": 173,
       "published": "2026-10-22T20:59:32.974Z",
       "seconds": 14073,
       "thumb": "https://i.ytimg.com/vi/qjP-X9wIm_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBqLzl_8DDgi-9ejWBhjg6gQg4KgB&rs=AOn4CLAVtNPpWJoVoBArgv5PG9laP8kLaA&usqp=CBU"
@@ -456,7 +483,7 @@
       "id": "O-15ugaLf54",
       "type": "video",
       "title": "Stop Dying to the Tiger Bosses! Complete Combat Guide | Black Myth: Wukong #BlackMythWukong",
-      "views": 320,
+      "views": 321,
       "published": "2026-09-11T07:12:21-07:00",
       "seconds": 781,
       "thumb": "https://i.ytimg.com/vi/O-15ugaLf54/maxresdefault.jpg"
