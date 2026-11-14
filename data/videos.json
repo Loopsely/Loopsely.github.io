@@ -3,14 +3,23 @@
   "channelTitle": "Loopsely",
   "subscribers": "90 subscribers",
   "source": "scrape",
-  "updated": "2026-11-13T13:54:34.205Z",
-  "count": 142,
+  "updated": "2026-11-14T12:57:00.038Z",
+  "count": 143,
   "counts": {
-    "live": 103,
+    "live": 104,
     "short": 30,
     "video": 9
   },
   "videos": [
+    {
+      "id": "pPabyYSGGDw",
+      "type": "live",
+      "title": "GUESS WHO'S BACK | 🔴LIVE VALORANT",
+      "views": 53,
+      "published": "2026-11-13T20:56:55.127Z",
+      "seconds": 16878,
+      "thumb": "https://i.ytimg.com/vi/pPabyYSGGDw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZj0BwEyi1APGS03XZOWjeiVCWbw"
+    },
     {
       "id": "ldqJmkfAzKM",
       "type": "live",
@@ -978,7 +987,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 350,
+      "views": 352,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
