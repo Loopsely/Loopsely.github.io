@@ -1,21 +1,30 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "90 subscribers",
+  "subscribers": "91 subscribers",
   "source": "scrape",
-  "updated": "2026-11-14T12:57:00.038Z",
-  "count": 143,
+  "updated": "2026-11-15T13:25:32.891Z",
+  "count": 144,
   "counts": {
-    "live": 104,
+    "live": 105,
     "short": 30,
     "video": 9
   },
   "videos": [
     {
+      "id": "APOjG3Pa5t8",
+      "type": "live",
+      "title": "Phantoming My Blade Today | Phantom Blade Zero Gameplay 🔴LIVE",
+      "views": 31,
+      "published": "2026-11-14T18:25:27.686Z",
+      "seconds": 6633,
+      "thumb": "https://i.ytimg.com/vi/APOjG3Pa5t8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdGfgAkVGm4m73btVoQJ1mB6km2g"
+    },
+    {
       "id": "pPabyYSGGDw",
       "type": "live",
       "title": "GUESS WHO'S BACK | 🔴LIVE VALORANT",
-      "views": 53,
+      "views": 59,
       "published": "2026-11-13T20:56:55.127Z",
       "seconds": 16878,
       "thumb": "https://i.ytimg.com/vi/pPabyYSGGDw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZj0BwEyi1APGS03XZOWjeiVCWbw"
@@ -105,7 +114,7 @@
       "id": "tWsfVeKuSic",
       "type": "live",
       "title": "EARLY DE-RANK ACCESS | 🔴LIVE VALORANT",
-      "views": 145,
+      "views": 146,
       "published": "2026-10-23T21:16:16.172Z",
       "seconds": 16181,
       "thumb": "https://i.ytimg.com/vi/tWsfVeKuSic/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAX32kG414UCtwZRW5fShZFR_IyzQ"
@@ -987,7 +996,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 352,
+      "views": 353,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
