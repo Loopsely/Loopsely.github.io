@@ -1,21 +1,39 @@
 {
   "channelId": "UCjGkhRhs6k7LJ-dIdp3e-IA",
   "channelTitle": "Loopsely",
-  "subscribers": "92 subscribers",
+  "subscribers": "96 subscribers",
   "source": "scrape",
-  "updated": "2026-11-18T15:04:21.194Z",
-  "count": 145,
+  "updated": "2026-11-19T15:14:13.606Z",
+  "count": 147,
   "counts": {
-    "live": 106,
-    "short": 30,
+    "short": 31,
+    "live": 107,
     "video": 9
   },
   "videos": [
     {
+      "id": "b2wkBY29pJc",
+      "type": "short",
+      "title": "GOOD LUCK TO HER LOVE #phantombladezero #gaming #shorts",
+      "views": 48,
+      "published": "2026-11-19T15:14:13.606Z",
+      "seconds": 0,
+      "thumb": "https://i.ytimg.com/vi/b2wkBY29pJc/sardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCJcnX8is0mM_9Lhhi9-ABLTjT_LA"
+    },
+    {
+      "id": "sz-qA9kpOv4",
+      "type": "live",
+      "title": "FINISHING CHAPTER 1|🔴LIVE PHANTOM BLADE ZERO",
+      "views": 43,
+      "published": "2026-11-18T18:14:08.165Z",
+      "seconds": 5707,
+      "thumb": "https://i.ytimg.com/vi/sz-qA9kpOv4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCMOIg5Me_4JfVXgzuSWoslweVGQ"
+    },
+    {
       "id": "muZF3UfHP-c",
       "type": "live",
       "title": "🔴LIVE PHANTOM BLADE ZERO | CHAPTER 1",
-      "views": 40,
+      "views": 42,
       "published": "2026-11-15T18:45:31.667Z",
       "seconds": 8601,
       "thumb": "https://i.ytimg.com/vi/muZF3UfHP-c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBNRwb-BgKoChYZter47U_QpHtg0Q"
@@ -24,7 +42,7 @@
       "id": "APOjG3Pa5t8",
       "type": "live",
       "title": "Phantoming My Blade Today | Phantom Blade Zero Gameplay 🔴LIVE",
-      "views": 40,
+      "views": 42,
       "published": "2026-11-14T18:25:27.686Z",
       "seconds": 6633,
       "thumb": "https://i.ytimg.com/vi/APOjG3Pa5t8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdGfgAkVGm4m73btVoQJ1mB6km2g"
@@ -339,7 +357,7 @@
       "id": "MsRHl1MwUdI",
       "type": "short",
       "title": "Average Swiftplay Shenanigans in Valorant 💀 #valorant #valorantclips #gaming",
-      "views": 62,
+      "views": 63,
       "published": "2026-09-27T21:34:20-07:00",
       "seconds": 62,
       "thumb": "https://i.ytimg.com/vi/MsRHl1MwUdI/hq720.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAeTKsxBcxHR5Li0nRk-hWBwX4OLw"
@@ -348,7 +366,7 @@
       "id": "QoLicZykbCI",
       "type": "live",
       "title": "TRYING TO WIN A VALORANT MATCH COS I COULDN'T WIN HER OVER | LIVE",
-      "views": 265,
+      "views": 266,
       "published": "2026-09-27T22:13:04.880Z",
       "seconds": 17680,
       "thumb": "https://i.ytimg.com/vi/QoLicZykbCI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCYOLvXYr9hGqy5-vkkjfmINnPYQw"
@@ -420,7 +438,7 @@
       "id": "Wdnpuz4x43w",
       "type": "short",
       "title": "16th ACE OF THIS ACT  #valorant #gaming #valorantclip",
-      "views": 536,
+      "views": 537,
       "published": "2026-09-22T06:12:00.431Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/Wdnpuz4x43w/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBH0Zi7KI1_slCh0o9e6Vad_aRBkw&usqp=CCk"
@@ -870,7 +888,7 @@
       "id": "GFL59z63Ffw",
       "type": "live",
       "title": "BEAST OF REINCARNATION Live Gameplay - Game Freak's New AAA Action RPG",
-      "views": 11,
+      "views": 12,
       "published": "2026-08-10T07:48:58+00:00",
       "seconds": 5812,
       "thumb": "https://i.ytimg.com/vi/GFL59z63Ffw/maxresdefault.jpg?v=6a798258"
@@ -942,7 +960,7 @@
       "id": "G5a1yg_46b0",
       "type": "video",
       "title": "BLACK MYTH: WUKONG - EASILY CLEAR GAUNTLET OF LEGENDS",
-      "views": 8500,
+      "views": 8600,
       "published": "2026-07-29T01:20:02-07:00",
       "seconds": 1104,
       "thumb": "https://i.ytimg.com/vi/G5a1yg_46b0/maxresdefault.jpg"
@@ -1005,7 +1023,7 @@
       "id": "hNVsLrEmquQ",
       "type": "short",
       "title": "INSANE ATTACK SPEED AND LIFE STEAL BUILD VS LORT FINAL BOSS #LORT #gaming",
-      "views": 353,
+      "views": 354,
       "published": "2026-07-20T23:35:06-07:00",
       "seconds": 157,
       "thumb": "https://i.ytimg.com/vi/hNVsLrEmquQ/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBeJeaknBP_Q4A1rz0-HYKwVsgGVQ&usqp=CCk"
