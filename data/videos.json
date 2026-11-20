@@ -3,19 +3,28 @@
   "channelTitle": "Loopsely",
   "subscribers": "96 subscribers",
   "source": "scrape",
-  "updated": "2026-11-19T15:14:13.606Z",
-  "count": 147,
+  "updated": "2026-11-20T14:53:08.747Z",
+  "count": 148,
   "counts": {
+    "live": 108,
     "short": 31,
-    "live": 107,
     "video": 9
   },
   "videos": [
     {
+      "id": "7Iwf6mT0NZ8",
+      "type": "live",
+      "title": "GETTING MY ASS BEAT | 🔴LIVE PHANTOM BLADE ZERO",
+      "views": 25,
+      "published": "2026-11-19T16:53:03.107Z",
+      "seconds": 2443,
+      "thumb": "https://i.ytimg.com/vi/7Iwf6mT0NZ8/hq720.jpg?sqp=-oaymwEgCNAFEJQDSFXyq4qpAxIIARUAAIhCGAFwAcABBrgC8xg=&rs=AOn4CLDNkP6qffOx-riv_ROk3m4e4BgqdA"
+    },
+    {
       "id": "b2wkBY29pJc",
       "type": "short",
       "title": "GOOD LUCK TO HER LOVE #phantombladezero #gaming #shorts",
-      "views": 48,
+      "views": 59,
       "published": "2026-11-19T15:14:13.606Z",
       "seconds": 0,
       "thumb": "https://i.ytimg.com/vi/b2wkBY29pJc/sardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCJcnX8is0mM_9Lhhi9-ABLTjT_LA"
@@ -24,7 +33,7 @@
       "id": "sz-qA9kpOv4",
       "type": "live",
       "title": "FINISHING CHAPTER 1|🔴LIVE PHANTOM BLADE ZERO",
-      "views": 43,
+      "views": 72,
       "published": "2026-11-18T18:14:08.165Z",
       "seconds": 5707,
       "thumb": "https://i.ytimg.com/vi/sz-qA9kpOv4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCMOIg5Me_4JfVXgzuSWoslweVGQ"
@@ -42,7 +51,7 @@
       "id": "APOjG3Pa5t8",
       "type": "live",
       "title": "Phantoming My Blade Today | Phantom Blade Zero Gameplay 🔴LIVE",
-      "views": 42,
+      "views": 43,
       "published": "2026-11-14T18:25:27.686Z",
       "seconds": 6633,
       "thumb": "https://i.ytimg.com/vi/APOjG3Pa5t8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDdGfgAkVGm4m73btVoQJ1mB6km2g"
