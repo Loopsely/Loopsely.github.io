@@ -3,19 +3,469 @@
   "channelTitle": "Loopsely",
   "subscribers": "96 subscribers",
   "source": "scrape",
-  "updated": "2026-11-22T14:01:16.524Z",
-  "count": 100,
+  "updated": "2026-11-23T17:21:59.454Z",
+  "count": 150,
   "counts": {
-    "live": 60,
+    "live": 110,
     "short": 31,
     "video": 9
   },
   "videos": [
     {
+      "id": "ThwjMJ4lnls",
+      "type": "live",
+      "title": "TRY NOT TO RANK UP CHALLENGE | LIVE VALORANT WITH @gozyx1z",
+      "views": 30,
+      "published": "2026-11-23T17:19:54.872Z",
+      "seconds": 16548,
+      "thumb": "https://i.ytimg.com/vi/ThwjMJ4lnls/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUe2fFoWEZqUEH7dSkLlePgndUgA"
+    },
+    {
+      "id": "PdPEOSgVwk8",
+      "type": "live",
+      "title": "WE CLIMBING TODAY | PEAK LIVE WITH @gozyx1z",
+      "views": 24,
+      "published": "2026-11-23T17:19:54.872Z",
+      "seconds": 5039,
+      "thumb": "https://i.ytimg.com/vi/PdPEOSgVwk8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZS_gjdk1okCK0iA1XWqddIYYYNg"
+    },
+    {
+      "id": "IPMx9cR84ks",
+      "type": "live",
+      "title": "LORT \"Shots and Prayers\" Update achievements maxing | LIVE | #LORT #LORTUpdate #Roguelite",
+      "views": 65,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 13249,
+      "thumb": "https://i.ytimg.com/vi/IPMx9cR84ks/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvH7klx0jeTgIR7ukrghpjE5s4mg"
+    },
+    {
+      "id": "Rq9sHwKe3RQ",
+      "type": "live",
+      "title": "LORT \"Shots and Prayers\" Update is here | LIVE | #LORT #LORTUpdate #Roguelite @gozyx1z ",
+      "views": 130,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 12448,
+      "thumb": "https://i.ytimg.com/vi/Rq9sHwKe3RQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3Y8WR6sBnRKaiekGOUmuhIycrPQ"
+    },
+    {
+      "id": "GFL59z63Ffw",
+      "type": "live",
+      "title": "BEAST OF REINCARNATION Live Gameplay - Game Freak's New AAA Action RPG",
+      "views": 12,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 5813,
+      "thumb": "https://i.ytimg.com/vi/GFL59z63Ffw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ0RxhgFZC6c7cChR64IPISbDNWQ"
+    },
+    {
+      "id": "7cKhO5PapMY",
+      "type": "live",
+      "title": "CHAINED TOGETHER ( TESTING THE BONDS OF OUR FRIENDSHIP) | LIVE",
+      "views": 35,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 10656,
+      "thumb": "https://i.ytimg.com/vi/7cKhO5PapMY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDvuuxAsdKZ22i4BfukebU5-qXVhw"
+    },
+    {
+      "id": "1LxYT5ryFR0",
+      "type": "live",
+      "title": "BEAST OF REINCARNATION Live Gameplay - Game Freak's New AAA Action RPG",
+      "views": 28,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 6831,
+      "thumb": "https://i.ytimg.com/vi/1LxYT5ryFR0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVESOASKX2pi_BkesTX-nxfilPrQ"
+    },
+    {
+      "id": "dX1NfF_nfDE",
+      "type": "live",
+      "title": "(CHAINED TOGETHER)CAN OUR FRIENDSHIP SURVIVE THIS STREAM | LIVE WITH @gozyx1z ",
+      "views": 34,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 13696,
+      "thumb": "https://i.ytimg.com/vi/dX1NfF_nfDE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxjzfY2sIGk934FfWpyhhaKj_n3g"
+    },
+    {
+      "id": "-NWxBc1q_ZM",
+      "type": "live",
+      "title": "Can We Escape Hell? 🔗 Chained Together Multiplayer Gameplay w/ Friends",
+      "views": 41,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 14791,
+      "thumb": "https://i.ytimg.com/vi/-NWxBc1q_ZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGa9vyuFH_7VVwqBohee88Pj96cA"
+    },
+    {
+      "id": "420vx6WANps",
+      "type": "live",
+      "title": "Black Myth: Wukong LIVE | FINISHING CHAPTER 4 AND MORE IF WE HAVE TIME",
+      "views": 67,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 5173,
+      "thumb": "https://i.ytimg.com/vi/420vx6WANps/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAmWr7emLzT7439E9L0jmaypcrITg"
+    },
+    {
+      "id": "BUcX-xrqPMs",
+      "type": "live",
+      "title": "Warhammer: Vermintide 2 LIVE",
+      "views": 38,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 8154,
+      "thumb": "https://i.ytimg.com/vi/BUcX-xrqPMs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByxP9CkEMEDJtvFwvTyPGY6xGurA"
+    },
+    {
+      "id": "9DICFRp0_os",
+      "type": "live",
+      "title": "VALORANT LIVE WITH @Aney777 ",
+      "views": 22,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 14804,
+      "thumb": "https://i.ytimg.com/vi/9DICFRp0_os/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfHsa_p7m6Tq4Cxb0gBhvcTYHKFg"
+    },
+    {
+      "id": "ic3Ydrve_uM",
+      "type": "live",
+      "title": "VALORANT LIVE WITH @gozyx1z  #valorant #gaming",
+      "views": 38,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 6433,
+      "thumb": "https://i.ytimg.com/vi/ic3Ydrve_uM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdKI5Pv_SMMS-d2jTHliLFdy20MQ"
+    },
+    {
+      "id": "cOm-wdaw9tg",
+      "type": "live",
+      "title": "VALORANT LIVE WITH @gozyx1z & @Aney777 ",
+      "views": 19,
+      "published": "2026-11-23T17:18:54.873Z",
+      "seconds": 11959,
+      "thumb": "https://i.ytimg.com/vi/cOm-wdaw9tg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCW76AABB6ubmyz8GMkh1FlQZ_mHQ"
+    },
+    {
+      "id": "cDgIT7U4nHY",
+      "type": "live",
+      "title": "VALORANT BUT I AM GOLD | VALORANT LIVE WITH @gozyx1z",
+      "views": 61,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 16703,
+      "thumb": "https://i.ytimg.com/vi/cDgIT7U4nHY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLArNS5I8HQepGGWRBG6mqKCr5aP-g"
+    },
+    {
+      "id": "gvtKFV7uwrw",
+      "type": "live",
+      "title": "VALORANT SHENANIGANS | LIVE WITH @gozyx1z",
+      "views": 43,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 19525,
+      "thumb": "https://i.ytimg.com/vi/gvtKFV7uwrw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIKB61_WAwKwQ2KfHgr0ZtP-Obfg"
+    },
+    {
+      "id": "jxxUmGSRlc0",
+      "type": "live",
+      "title": "ADVENTURE WITH KOO CONTINUOUS| Beast of Reincarnation Part 4",
+      "views": 278,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 7142,
+      "thumb": "https://i.ytimg.com/vi/jxxUmGSRlc0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCYBpKr1Iz9Wl4yfhbpSEK2O3duQ"
+    },
+    {
+      "id": "z3PjWEePFIw",
+      "type": "live",
+      "title": "MINECRAFT REALMS WITH THE BOYS",
+      "views": 52,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 10151,
+      "thumb": "https://i.ytimg.com/vi/z3PjWEePFIw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQNn69J5sj3Razxn_nEoLmzUsn4g"
+    },
+    {
+      "id": "P8Xvj4i9SQ0",
+      "type": "live",
+      "title": "PROVING KOO IS THE GOODEST BOY | Beast of Reincarnation Part 3",
+      "views": 38,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 10854,
+      "thumb": "https://i.ytimg.com/vi/P8Xvj4i9SQ0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANWZmPhMC1irNQ05h7KHTp6NZB_w"
+    },
+    {
+      "id": "0jd9WJTWY68",
+      "type": "live",
+      "title": "ENDING OUR FRIENDSHIP AS THE ACT ENDS  | VALORANT LIVE  @gozyx1z ",
+      "views": 19,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 11313,
+      "thumb": "https://i.ytimg.com/vi/0jd9WJTWY68/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC-1HJRKhgu2wuZkxduv3yHUwetPQ"
+    },
+    {
+      "id": "peVWR0OCSlg",
+      "type": "live",
+      "title": "GRINDING BEFORE THE ACT ENDS VALORANT | LIVE @gozyx1z ",
+      "views": 16,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 17306,
+      "thumb": "https://i.ytimg.com/vi/peVWR0OCSlg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSttI0AOnIFLw6V_F5MWiwLKmrag"
+    },
+    {
+      "id": "Gz-QYValbG4",
+      "type": "live",
+      "title": "TRYING TO GET MY AIM BACK VALORANT | LIVE",
+      "views": 44,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 7858,
+      "thumb": "https://i.ytimg.com/vi/Gz-QYValbG4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDATuNQ7e9VJMAqSekCR8TR33GqfA"
+    },
+    {
+      "id": "a51g4fY95w0",
+      "type": "live",
+      "title": "LOVE HATE RELATIONSHIP WITH VALORANT | LIVE",
+      "views": 31,
+      "published": "2026-11-23T17:18:54.872Z",
+      "seconds": 17323,
+      "thumb": "https://i.ytimg.com/vi/a51g4fY95w0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBL9ZrCAb2DxWIeVLKfcOTPixmyMQ"
+    },
+    {
+      "id": "ZBG5Liz4Fw0",
+      "type": "live",
+      "title": "LORT LIVE WITH @gozyx1z , @illuso7825 & @Aney777 ",
+      "views": 25,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 10216,
+      "thumb": "https://i.ytimg.com/vi/ZBG5Liz4Fw0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBz-MLGS8DTXgonLlY7bHIoyaI_yw"
+    },
+    {
+      "id": "cOp_4cbNz-4",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE (waiting for season 9)",
+      "views": 12,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 4638,
+      "thumb": "https://i.ytimg.com/vi/cOp_4cbNz-4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCbW-Q25gWV_v0UNCYinrYeK4PoWw"
+    },
+    {
+      "id": "-vdJiNjsQcI",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE WITH @gozyx1z ",
+      "views": 27,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 8587,
+      "thumb": "https://i.ytimg.com/vi/-vdJiNjsQcI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3fjKbTFUuEc1eRqp1ZPk-IJqJPA"
+    },
+    {
+      "id": "ZuMTGknokHM",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE(learning dd today)",
+      "views": 35,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 6583,
+      "thumb": "https://i.ytimg.com/vi/ZuMTGknokHM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8AsooM5vl0lVXg9EnjemcTH-QlQ"
+    },
+    {
+      "id": "jUKHO7u5K94",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE ( NO SLEEP VS QUICK PLAY )",
+      "views": 20,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 6115,
+      "thumb": "https://i.ytimg.com/vi/jUKHO7u5K94/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1CmH_9wRL43PMfFt4_pYOKmZE_w"
+    },
+    {
+      "id": "36Xs94_X-vc",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE",
+      "views": 18,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 11123,
+      "thumb": "https://i.ytimg.com/vi/36Xs94_X-vc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvxwhQ6GhvVeHXOwU_-Xk_toD3Ow"
+    },
+    {
+      "id": "WZ7-H90hP8M",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE",
+      "views": 14,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 9252,
+      "thumb": "https://i.ytimg.com/vi/WZ7-H90hP8M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCDCcI0ValfyKuF8PTFLoK0-EZtXA"
+    },
+    {
+      "id": "KhJ7VdPSmkU",
+      "type": "live",
+      "title": "MARVEL RIVALS WITH @gozyx1z & @illuso7825 ",
+      "views": 51,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 8868,
+      "thumb": "https://i.ytimg.com/vi/KhJ7VdPSmkU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcd1-wtcgL4A9B0xLeeFRSSyE8Qw"
+    },
+    {
+      "id": "-VIF8dOmSFQ",
+      "type": "live",
+      "title": "MINECRAFT LIVE",
+      "views": 27,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 8570,
+      "thumb": "https://i.ytimg.com/vi/-VIF8dOmSFQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBoFlZrJLWENNpvBP2j54SnVVunGA"
+    },
+    {
+      "id": "2P0S-rQOv4c",
+      "type": "live",
+      "title": "CS2 LIVE WITH @illuso7825 & @gozyx1z",
+      "views": 38,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 7791,
+      "thumb": "https://i.ytimg.com/vi/2P0S-rQOv4c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBheCzjSqR-v0C7BAMgJDu00xcjCg"
+    },
+    {
+      "id": "jxMwTgnpMxU",
+      "type": "live",
+      "title": "VAORANT LIVE WITH @gozyx1z",
+      "views": 27,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 11655,
+      "thumb": "https://i.ytimg.com/vi/jxMwTgnpMxU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApFt3VQ3CKt_czyDc1y4a_SRxzxw"
+    },
+    {
+      "id": "XpKkIh5ds8Q",
+      "type": "live",
+      "title": "MINECRAFT LIVE",
+      "views": 13,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 7980,
+      "thumb": "https://i.ytimg.com/vi/XpKkIh5ds8Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5lnvA7P4em0oRQjU8y8uKcd-2Gg"
+    },
+    {
+      "id": "pQNt2sk1OzE",
+      "type": "live",
+      "title": "MINECRAFT LIVE",
+      "views": 22,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 11042,
+      "thumb": "https://i.ytimg.com/vi/pQNt2sk1OzE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFJGclLwk02BDTdqGgygSshflETg"
+    },
+    {
+      "id": "ZX8nf2NQ6pM",
+      "type": "live",
+      "title": "MINECRAFT LIVE (GOLD FARM TIME )  WITH @gozyx1z  & @illuso7825",
+      "views": 14,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 12999,
+      "thumb": "https://i.ytimg.com/vi/ZX8nf2NQ6pM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNsW_nvaoILZ04NI-mKk4aJN9bQw"
+    },
+    {
+      "id": "VU16khXe6Tg",
+      "type": "live",
+      "title": "MINECRAFT LIVE WITH @gozyx1z & @illuso7825 ",
+      "views": 20,
+      "published": "2026-11-23T17:17:55.074Z",
+      "seconds": 8703,
+      "thumb": "https://i.ytimg.com/vi/VU16khXe6Tg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2uSAuNYtQsj2GMX_YJe7nZFIP8A"
+    },
+    {
+      "id": "jwkpjTovb4k",
+      "type": "live",
+      "title": "LORT TIME",
+      "views": 47,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 13229,
+      "thumb": "https://i.ytimg.com/vi/jwkpjTovb4k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBnKsoZEZI8TzGsS7cYfwX6bSOSjA"
+    },
+    {
+      "id": "W401zpfYd60",
+      "type": "live",
+      "title": "LORT LIVE WITH@gozyx1z ",
+      "views": 31,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 16126,
+      "thumb": "https://i.ytimg.com/vi/W401zpfYd60/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApFM4i6Q_pSiMX9jWGXNuU-bbtYA"
+    },
+    {
+      "id": "anBPxuJiBzo",
+      "type": "live",
+      "title": "MARVEL RIVALS LIVE WITH @gozyx1z ",
+      "views": 17,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 4462,
+      "thumb": "https://i.ytimg.com/vi/anBPxuJiBzo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD629DfIJMIC0DESH9R3nHohxUIlQ"
+    },
+    {
+      "id": "9CKQ2f0lplc",
+      "type": "live",
+      "title": "LORT LIVE (am bored)",
+      "views": 21,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 8843,
+      "thumb": "https://i.ytimg.com/vi/9CKQ2f0lplc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClqzLnVmr1ciTBxQAvBJ73JWg9jw"
+    },
+    {
+      "id": "qkus-3cUdFI",
+      "type": "live",
+      "title": "LORT LIVE (i cleared the game solo now squads)",
+      "views": 17,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 13555,
+      "thumb": "https://i.ytimg.com/vi/qkus-3cUdFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGSdQdva19LicSnztVgKpAWGaBCA"
+    },
+    {
+      "id": "sd6LM7n1CK0",
+      "type": "live",
+      "title": "LORT LIVE (duoing with my parents's older offspring)",
+      "views": 12,
+      "published": "2026-11-23T17:17:54.873Z",
+      "seconds": 11350,
+      "thumb": "https://i.ytimg.com/vi/sd6LM7n1CK0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7jj7Ey4UzxwnI_Eb5WSX9hBCyGw"
+    },
+    {
+      "id": "2jknBDC_erQ",
+      "type": "live",
+      "title": "MINECRAFT LIVE",
+      "views": 16,
+      "published": "2026-11-23T17:16:55.074Z",
+      "seconds": 12641,
+      "thumb": "https://i.ytimg.com/vi/2jknBDC_erQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATqMV0Zo-g3hntA0c29HxNqi9eYQ"
+    },
+    {
+      "id": "YemY-ZGky2U",
+      "type": "live",
+      "title": "MINECRAFT LIVE ",
+      "views": 25,
+      "published": "2026-11-23T17:16:55.074Z",
+      "seconds": 22278,
+      "thumb": "https://i.ytimg.com/vi/YemY-ZGky2U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9snT1xI6L3C83UheDZF3ewHA2Jw"
+    },
+    {
+      "id": "inGvgDJhlGk",
+      "type": "live",
+      "title": "MINECRAFT LIVE",
+      "views": 22,
+      "published": "2026-11-23T17:16:55.074Z",
+      "seconds": 28211,
+      "thumb": "https://i.ytimg.com/vi/inGvgDJhlGk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZcxwhTgQADfLiWJKhFxeaS1gWxg"
+    },
+    {
+      "id": "GhOYhWOPf3k",
+      "type": "live",
+      "title": "MINECRAFT LIVE | WITH BOYS @zyx1zflows & @illuso7825",
+      "views": 18,
+      "published": "2026-11-23T17:16:55.074Z",
+      "seconds": 21557,
+      "thumb": "https://i.ytimg.com/vi/GhOYhWOPf3k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn3ylTBMuqtaTngFeMOaRq9EtWxQ"
+    },
+    {
+      "id": "oA53AjxorHA",
+      "type": "live",
+      "title": "CS2 LIVE | WITH BOYS | #CS2 #CS2Live #gaming",
+      "views": 31,
+      "published": "2026-11-23T17:16:55.074Z",
+      "seconds": 8510,
+      "thumb": "https://i.ytimg.com/vi/oA53AjxorHA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjNMFttjfn-eIQf94AmamC6qULLw"
+    },
+    {
+      "id": "oooa9Wbmsws",
+      "type": "live",
+      "title": "CHAPTER 2 PART2 | 🔴LIVE PHANTOM BLADE ZERO",
+      "views": 49,
+      "published": "2026-11-22T18:21:54.496Z",
+      "seconds": 6816,
+      "thumb": "https://i.ytimg.com/vi/oooa9Wbmsws/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAD5xNYppX_qpNPQSouYDGmvFn8Sg"
+    },
+    {
       "id": "qpzKuEZXfjw",
       "type": "live",
       "title": "CHAPTER 2 | 🔴LIVE PHANTOM BLADE ZERO",
-      "views": 52,
+      "views": 56,
       "published": "2026-11-21T19:01:13.239Z",
       "seconds": 12953,
       "thumb": "https://i.ytimg.com/vi/qpzKuEZXfjw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVrvwXgHsrTtn9ZU4G7bqMJZAV6Q"
@@ -24,7 +474,7 @@
       "id": "7Iwf6mT0NZ8",
       "type": "live",
       "title": "GETTING MY ASS BEAT | 🔴LIVE PHANTOM BLADE ZERO",
-      "views": 43,
+      "views": 55,
       "published": "2026-11-19T15:53:00+00:00",
       "seconds": 2443,
       "thumb": "https://i.ytimg.com/vi/7Iwf6mT0NZ8/maxresdefault.jpg?v=6aff1b48"
@@ -33,7 +483,7 @@
       "id": "b2wkBY29pJc",
       "type": "short",
       "title": "GOOD LUCK TO HER LOVE #phantombladezero #gaming #shorts",
-      "views": 60,
+      "views": 61,
       "published": "2026-11-19T00:19:56-08:00",
       "seconds": 166,
       "thumb": "https://i.ytimg.com/vi/b2wkBY29pJc/sardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCJcnX8is0mM_9Lhhi9-ABLTjT_LA"
@@ -42,7 +492,7 @@
       "id": "sz-qA9kpOv4",
       "type": "live",
       "title": "FINISHING CHAPTER 1|🔴LIVE PHANTOM BLADE ZERO",
-      "views": 83,
+      "views": 85,
       "published": "2026-11-18T16:14:53+00:00",
       "seconds": 5707,
       "thumb": "https://i.ytimg.com/vi/sz-qA9kpOv4/maxresdefault.jpg?v=6afdceeb"
@@ -51,7 +501,7 @@
       "id": "muZF3UfHP-c",
       "type": "live",
       "title": "🔴LIVE PHANTOM BLADE ZERO | CHAPTER 1",
-      "views": 43,
+      "views": 44,
       "published": "2026-11-15T15:49:20+00:00",
       "seconds": 8601,
       "thumb": "https://i.ytimg.com/vi/muZF3UfHP-c/maxresdefault.jpg?v=6af9d470"
@@ -123,7 +573,7 @@
       "id": "SkEe0OkOHNc",
       "type": "live",
       "title": "TOO LAZY TO EDIT SO STREAMING | Beast of Reincarnation Live",
-      "views": 159,
+      "views": 160,
       "published": "2026-10-27T05:40:55+00:00",
       "seconds": 8853,
       "thumb": "https://i.ytimg.com/vi/SkEe0OkOHNc/maxresdefault.jpg?v=6ae03957"
